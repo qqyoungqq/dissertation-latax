@@ -52,10 +52,7 @@
 % 
 % \chapter{He}
 
-\chapter[Tidally-driven Ice Speed Variation at Helheim Glacier, Greenland Observed with Terrestrial Radar Interferometry ]{Tidally-driven Ice Speed Variation at Helheim Glacier, Greenland Observed with Terrestrial Radar Interferometry \footnote{This chapter is in press as: Voytenko, D., Stern, A., Holland, D. M., Dixon, T. H., Walker, R. T., Christianson, K., (2015), Tidally-driven ice speed variation at Helheim Glacier, Greenland observed with terrestrial radar interferometry, Journal of Glaciology.}}
-
-% \chapter[Tidally-driven ice speed variation at Helheim Glacier, Greenland observed with terrestrial radar interferometry ]{Tidally-driven ice speed variation at Helheim Glacier, Greenland observed with terrestrial radar interferometry \footnote{This chapter is in press as: Voytenko, D., Stern, A., Holland, D. M., Dixon, T. H., Walker, R. T., Christianson, K., (2015), Tidally-driven ice speed variation at Helheim Glacier, Greenland observed with terrestrial radar interferometry, Journal of Glaciology.}}
-
+\chapter[InSAR Monitoring of Ground Deformation Due to CO$_{2}$ injection at an Enhanced Oil Recovery Site, West Texas]{InSAR Monitoring of Ground Deformation Due to CO$_{2}$ injection at an Enhanced Oil Recovery Site, West Texas \footnote{This chapter has been reprinted from the International Journal of Greenhouse Gas Control with permission as: Yang, Q., Zhao, W. L., Dixon, T. H., Amelung, F., Han, W. S., Li, P., (2015), InSAR Monitoring of Ground Deformation Due to CO$_{2}$ injection at an Enhanced Oil Recovery Site, West Texas, International Journal of Greenhouse Gas Control, 41, 20-28.}}
 
 % 
 % \author[Voytenko and others]{Denis VOYTENKO,$^1$ Alon STERN,$^2$ David M. HOLLAND,$^2$ Timothy H. DIXON,$^1$ Knut CHRISTIANSON,$^2$ Ryan T. WALKER$^{3,4}$}
@@ -63,183 +60,306 @@
 % \affiliation{%
 % $^1$School of Geosciences,
 % University of South Florida, Tampa, Florida, USA.\\
-% E-mail: dvoytenk@mail.usf.edu\\
+% E-mail: qianyang@mail.usf.edu\\
 % $^2$Courant Institute of Mathematical Sciences, New York University, New York, New York, USA\\
 % $^3$Cryospheric Sciences Laboratory, NASA Goddard Space Flight Center, Greenbelt, Maryland, USA\\
 % $^4$Earth System Science Interdisciplinary Center, University of Maryland, College Park, Maryland, USA
 % }
 
-\section{Abstract} We used a Terrestrial Radar Interferometer (TRI) at Helheim, Greenland in August of 2013 to study the effects of tidal forcing on the terminal zone of this tidewater glacier. During our study period, the glacier velocity was up to 25~m~d$^{-1}$. Our measurements show that the glacier moves out-of-phase with the semidiurnal tides and the densely-packed m\'elange in the fjord. Here, detrended glacier displacement lags behind the forecasted tidal height by $\sim$8~h. The transition in phase lag between the glacier and the m\'elange happens within a narrow ($\sim$500~m) zone in the fjord in front of the ice cliff. The TRI data also suggest that the impact of tidal forcing decreases rapidly up-glacier from the terminus. A flow line model suggests that this pattern of velocity perturbation is consistent with weak ice flowing over a weakly nonlinear bed.
-
+\section{Abstract} 
+Interferometric Synthetic Aperture Radar (InSAR) measurements have been used to measure ground deformation associated with fluid injection/production at an Enhanced Oil Recovery (EOR) field in Scurry County, West Texas. 100 million tons (Mt) of supercritical CO$_{2}$ have been sequestered here since 1972, of which about half has been sequestered since 2004.  InSAR data show surface uplift up to 10 cm in the field between January 2007 and March 2011.  We evaluated data concerning injection and production of CO$_{2}$, water, oil and hydrocarbon gas from 2004 to 2011 to investigate causes of the observed uplift.  An analytical model is used to calculate reservoir pressure change and surface displacement.  Our simulations show up to 10 MPa pressure buildup in the reservoir over four years of net injection and production.  Surface displacement predictions agree well with the InSAR observations.  Water injection alone cannot explain the 2007 – 2011 surface uplift because the net injected water ($\sim$1~Mt) is negligible compared to the net injected CO$_{2}$ ($\sim$24~Mt).  The predicted total pressure buildup (up to 10 MPa) consists of net CO$_{2}$ injection (up to 12 MPa), net water injection (up to 2 MPa), and oil and gas production (up to -0.4 MPa).  Hence, observed ground uplift was mainly caused by CO$_{2}$ injection.
 % \maketitle
 
 
 \section{Introduction}
 
-Tidal forcing of the speed of marine-terminating glaciers is an important aspect of ice-ocean interactions.
- Observing tidal forcing in a glacier's terminal region benefits from minute-scale, spatially-dense measurements, which are now possible using Terrestrial Radar Interferometry (TRI) \citep{rolstad2009ground,dixon2012emerging}. Here we present new TRI measurements showing terminus-wide spatial and temporal impacts of tidal forcing along with a a model consistent with our observations at Helheim Glacier,  a major marine-terminating outlet glacier on Greenland's southeast coast and one that is known to respond to tidal forcing \citep{de2010sudden}. 
+An important aspect of large-scale Carbon Capture, Utilization and Storage (CCUS) is the ability to assess the fate of injected CO$_{2}$ and test for leakage.  These so-called Monitoring, Verification and Accounting (MVA) activities typically involve active seismic surveys and down-hole techniques for precise tracking of CO$_{2}$ plume migration, both of which can be expensive.  Since the economic viability of CCUS is impacted by the cost of MVA activities, development of lower cost approaches is desirable.
 
-	
-Helheim terminates into the 600-900 m deep Sermilik Fjord. The fjord is stratified with upper cold, polar water and deeper, warm Atlantic water \citep{andresen2012rapid,straneo2012characteristics,straneo2013challenges}. The first $\sim$20~km adjacent to Helheim's terminus are usually packed with dense ice m\'elange. Helheim Glacier accelerated and retreated between 2000 and 2005 \citep{howat2005rapid,rignot2006changes} while in aggregate gaining mass between 2000 and 2010 due to a likely increase in accumulation \citep{howat2011mass}. It is now considered to be  Greenland's fifth largest glacier in terms of discharge \citep{enderlin2014improved}.
-	
-	
-Tidal signals have been observed in tidewater and floating tongue glaciers throughout the world, with the tidal influence being present as far as 80 km up-glacier from the grounding line \citep{anandakrishnan2003ice}.  However, the effect of tides on ice motion is highly variable. Some glaciers, like the Ekstroem Ice Shelf \citep{heinert2007parametric}, move in-phase with the tides (i.e., high tide induces high velocity), while others, including Helheim \citep{de2010sudden}, Jakobshavn \citep{podrasky2014quantifying}, Columbia Glacier \citep{meier1987fast,walters1987analysis}, LeConte Glacier \citep{oneel2001leconte}, and the Brunt Ice Shelf \citep{doake2002tide} move out-of-phase with the tides (i.e., high tide induces low velocity). 
+Injection of CO$_{2}$ or other fluid into a reservoir at depth increases fluid pressure in the reservoir, causing deformation in the overlying strata and inducing surface deformation.  If the pressure change is large enough, the surface deformation may be measurable.  In principle, the measured surface deformation can be inverted to estimate pressure changes at depth and track the CO$_{2}$ plume \cite[e.g.,][]{vasco2008reservoir,vasco2010satellite,rinaldi2013modeling,white2014geomechanical,karegar2015gps}.  Over long periods (decades or centuries), chemical reactions that result in formation of mineral phases will cause pressure and volume reduction and subsidence, and could not be distinguished from migration or leakage with this technique alone.  On the other hand, surface deformation can be measured at relatively low cost, the interpretation is relatively straightforward, and the technique gives useful information in the critical few years immediately following injection.
 
+Enhanced Oil Recovery (EOR) refers to techniques for increasing the amount of oil extracted at depleted or high viscosity oil fields.   CO$_{2}$-Enhanced Oil Recovery (CO$_{2}$-EOR) has been used by the oil and gas industry for over 40 years \cite[]{orr1984use}, but only recently has its potential as a promising method of carbon sequestration been realized and investigated \cite[]{bryant2007geologic}.  Considering the potential of CO$_{2}$-EOR for implementation of large-scale carbon emission reduction \cite[]{metz2005carbon}, it is important to test surface deformation MVA techniques in a CO$_{2}$-EOR field.
 
-Causes for out-of-phase motion have been summarized by \citet{murray2007ice} and include grounding-line backstress reduction at low tide \citep{thomas2007tide}, till properties that interact with changing water pressure to change resolved normal stress or effective friction at the glacier base \citep{gudmundsson2005long}, ocean currents that similarly change basal conditions \citep{doake2002tide}, and variations in basal drag due to shifting of the grounding line \citep{heinert2007parametric,sayag2013elastic}.
+Interferometric Synthetic Aperture Radar (InSAR) technique has been successfully used to monitor surface deformation associated with CO$_{2}$ injection at the In Salah field in Algeria \cite[]{mathias2009approximate,morris2011study,shi2012assessment,verdon2013comparison}.  In this paper, we use InSAR to study surface deformation associated with a CO$_{2}$-EOR project in West Texas.  We use an analytical model and historical injection and production data to estimate CO$_{2}$ plume extent and reservoir pressure change constrained by surface deformation observations. The study reveals that ground uplift between January 2007 and March 2011 is mainly caused by CO$_{2}$ injection.   The maximum pressure change due to net injection and production of CO$_{2}$, water, oil and hydrocarbon gas is up to 10 MPa.
 
-Recently it has also been suggested that velocity at Helheim may be subject to diurnal variations caused by bed lubrication resulting from solar-driven surface melting \citep{davis2014tides}, while calving may be strongly influenced by crevasse water depth and basal water pressure \citep{cook2014modelling} and may happen in  a buoyancy-driven manner \citep{james2014buoyant}.
+\section{Study area description}
+The CO$_{2}$-EOR field is located in Scurry County, West Texas (Figure \ref{fig:map_los_a}).  The reservoir is the southeastern segment of the Horseshoe Atoll play within the Midland basin, one of the largest subsurface limestone reef mounds in the world \cite[]{galloway1983atlas}.  It is a chain of oil fields with the major one being the Kelly-Snyder field.  The producing zones are Pennsylvanian-aged Cisco and Canyon formations, and are comparable to a large class of potential brine storage reservoirs.  Average depth of the producing zones is 2000 m \cite[]{vest1970oil,raines2001review} with average reservoir pressures of 16 MPa and a temperature of 41.5 \textordmasculine C \cite[]{raines66}.  The rock formation porosity (0 – 22.5\%) and permeability (0.1 md – 1760 md) are described in \citet{raines66}.  The reported average porosity and permeability are 9.8\% and 19 mD respectively.  Overlying the producing zone is the Permian-aged Wolfcamp formation, providing a very low permeability seal above the Cisco and Canyon Groups.  The physical properties of the field make it a good candidate for CO$_{2}$-EOR as well as CO$_{2}$ sequestration.
 
+Three production phases occurred in the oil field after it was discovered in 1948 (Figure \ref{fig:inj_pro_hist}).  The primary recovery phase was 1948 – 1951.  During this phase, 5 percent of original oil in place (2.73 billion barrels) was produced by the solution gas driven mechanism, resulting in decline of the original reservoir pressure by 50 percent, from 21.5 MPa to 11.4 MPa \cite[]{dicharry1973evaluation,brummett1976reservoir}.  The secondary recovery phase began in 1954.  During this phase, water-flooding technology was used to produce oil and maintain reservoir pressure.  133 MCM (Million Cubic Meters) of water was injected into the reservoir, and reservoir pressure increased from 11.4 MPa to 16.2 MPa. However, after 17 years of water injection, over 40 percent of original oil in place was still left in the reservoir.
 
-	
-\section{Methods and results}
-We observed Helheim's terminal zone with a TRI (Figure \ref{fig:sitelocation}) by collecting five days of radar observations (16-20 August, 2013). Our TRI instrument is a GAMMA Portable Radar Interferometer, a real-aperture radar that generates phase and amplitude images, and makes line-of-sight displacement measurements. The instrument operates at Ku-band (1.74 cm wavelength), and acquires images by rotational scanning \citep{werner2008gamma}. In normal operating conditions, the TRI has one transmitting and two receiving antennas, allowing generation of digital elevation models (DEMs) of the imaged surface (Figure \ref{fig:DEM}). The instrument has a 0.75 m range resolution, and azimuth resolution that varies with distance. Our results are resampled to map coordinates with 10 m pixel spacing. Other characteristics of the instrument are summarized in \citet{voytenko2014}.
+The tertiary/enhanced oil recovery phase started in 1972 \cite[]{crameik1972carbon}.  During this phase, CO$_{2}$ was injected continuously into the reservoir to increase oil production.  From 1972 to 2003, the CO$_{2}$ monthly injection rate was quite stable, with a mean value of 0.28 MCM per month.  The CO$_{2}$ injection rate has increased since 2004.  The mean value of the CO$_{2}$ monthly injection rate in 2004 – 2011 was about six times higher compared to 1972 – 2003.  Although water was also injected into the unit during the third phase, the sequestered water was small compared to the sequestered CO$_{2}$ since injected and produced volumes of water are approximately equal (Figure \ref{fig:inj_pro_hist}).  \citet{raines66} suggested that approximately 55 Mt (70 MCM) of CO$_{2}$ was sequestered in the reservoir from 1972 to 2005 based on a simple mass-balance model.  Our study updates the injection and production data sets to 2011, and suggests that about 100 Mt (128 MCM) of CO$_{2}$ were sequestered in the reservoir from 1972 to 2011, with about 50 percent accumulated from 2004 to 2011. Note that in this paper, all the volume numbers are reported at the reservoir depth with pressure equal to 16 MPa and temperature equal to 41.5 \textordmasculine C.  
 
+\section{Observed ground deformation}
+Advanced Land Observing Satellite (ALOS) image data from the Japan Aerospace Exploration Agency (JAXA) are used to monitor surface displacement above the CO$_{2}$-EOR field.  The satellite repeat cycle is 46 days.  Thirteen images were acquired from January 08, 2007 to March 06, 2011 on ascending path 184, frame 640, from which 53 interferograms were generated.  The small Baseline Subset technique \cite[]{berardino2002new} is applied to generate displacement time series.  By using L-band SAR data, the interferometric phase tends to remain coherent even in vegetated areas. To reduce errors caused by phase unwrapping, we use the temporal coherence method \cite[]{pepe2006extension} to mask out pixels with unwrapping error.  SRTM version 4 \cite[]{reuter2007evaluation} 3 arc second DEM data were interpolated to 1 arc second ($\sim$30~m) resolution to remove topographic effects (Figure \ref{fig:dem}). 
 
-The TRI was positioned above the fjord (300 m a.s.l.) $\sim$5 km away from the terminus (Figure \ref{fig:sitelocation}).  The observations included 50~h of continuous measurements with a single receiving antenna (the second antenna failed shortly after set-up), although we were able to obtain an initial DEM (Figure \ref{fig:DEM}). We scanned a 120$^{\circ}$ arc covering the m\'elange and the glacier surface every 2 minutes. We also compared the TRI measurements with GPS measurements from a single-frequency (L1) unit deployed on the glacier about 2~km from the terminus (Figure \ref{fig:sitelocation}).  
-No major calving events occurred during our study (see supplementary information). 
+A total displacement of up to $\sim$10~cm LOS (line of sight) is detected (Figure \ref{fig:map_los_a}a).  Note that part of the oil field is not covered by our interferograms.  No active injection or production occurred in this section during the InSAR observation period (discussed in section 4.3, Figure 5).  Thus, we expect only moderate displacement here associated with nearby injection and production activity.   
 
+Figure \ref{fig:los_cumul_store}a shows time series of LOS displacement at Snyder, Texas (red star marked in Figure 1).  Increasing LOS displacement is observed from 2007 to 2011 when the cumulative volume of sequestered CO$_{2}$ increased.  From 2007 to 2011, about 31 MCM ($\sim$24~Mt) CO$_{2}$ is stored in the reservoir, significantly larger than the amount of stored water ($\sim$~MCM/1 Mt) (Figure \ref{fig:los_cumul_store}b), suggesting that the observed surface uplift is mainly caused by CO$_{2}$ injection. 
 
-Our velocity analysis is based on interferometric measurements, i.e. the difference in backscattered phase from two consecutive observations.  The unwrapped phase differences produce interferograms which show displacement over a given time period (two minutes in this case). We averaged 2~h of acquisitions to obtain a representative velocity map of the glacier surface and the proglacial m\'elange  (Figure \ref{fig:velocities}a).  Integrating the displacement over time produces a displacement time series for each pixel in the radar image, the slope of which is the average line-of-sight glacier velocity over that period. 
+\section{Simulation}
+\subsection{Analytical solution for ground displacement}
+An analytical solution for ground displacement associated with injection or withdrawal of fluid at depth may be derived in two steps: a) the approximate solution for reservoir pressure change due to fluid injection \cite[]{mathias2009approximate,mathias2009screening} and production \cite[]{theis1935relation}; and b) the solution for surface deformation due to pressure change in depth estimated in an elastic half space \cite[]{xu2012fluid}.
 
+First, we calculate the reservoir pressure change field due to fluid injection.  Here, the approximate solution of \citet{mathias2009approximate} is adopted to calculate pressure buildup due to injection of CO$_{2}$ in rock formations with large spatial extent.  This solution is derived using the method of matched asymptotic expansions and accounts for two-phase Forchheimer flow (supercritical CO$_{2}$ and water), allowing for slight compressibility of fluid and rock formation.  We also use the solution of Mathias to calculate pressure buildup due to water injection.  Note that the Mathias solution reduces to the \citet{theis1935relation} solution for calculating pressure change due to water injection (single-phase flow) \cite[]{mathias2009approximate}.  We adopt the Theis solution to estimate pressure decline caused by fluid extraction (oil, hydrocarbon gas, water and CO$_{2}$).  \citet{theis1935relation} provides a simplified model to estimate pressure drawdown due to pumping in a homogeneous, isotropic and infinite areal extent reservoir.   We apply the Mathias solution to each injection well and calculate pressure change field caused by CO$_{2}$ injection and water injection respectively.  Note that for wells injecting both CO$_{2}$ and water, we calculate the induced pressure buildup separately regardless of the mixing nature.  As with pressure change due to injection, we apply the Theis equation to calculate pressure change field caused by pumping of each type of fluid (oil, hydro-carbon gas, water and CO$_{2}$) at every individual production well.  In summary, in this step we estimate a pressure change field caused by every single fluid element injected/extracted at an individual well, in preparation for surface displacement calculation in the next step. 
 
-The glacier has a mostly-uniform average line-of-sight motion up to 25~m~d$^{-1}$ (Figure \ref{fig:velocities}a), similar to the rate measured by \citet{de2010sudden}. Data from the GPS unit give a similar velocity to the TRI when converted to the radar line-of-sight (22~m~d$^{-1}$ by TRI vs 23~m~d$^{-1}$ by GPS around the same location). A simple comparison of the terminus location in radar amplitude images from the beginning and  end of the study also gives an average velocity of $\sim$25~m~d$^{-1}$. We estimate velocity uncertainty ($\pm$0.02~m~d$^{-1}$) by measuring the displacement at motionless points (i.e, bare rock). It is also possible to estimate the glacier velocity in the direction of motion by assuming a negligible surface slope and dividing the measured line-of-sight velocity at any pixel by the cosine of the angle given by the difference between the radar look direction to that point and the direction of ice motion (95 degrees clockwise from north in this case) (Figure \ref{fig:velocities}b) \citep{voytenko2014}.
+Here we summarize the main formulations of the analytical solution for pressure buildup $P_{inj}(r,t)$  at radial distance $r$ (note that $x$ is dependent on r) and time t due to fluid (CO$_{2}$/water) injection  \cite[]{mathias2009approximate} (eq. 1-2) and the Theis solution for pressure drawdown P\_pro (r,t) due to fluid (CO$_{2}$/water/oil/HC gas) production (eq. 3).
 
+\begin{equation}
+\begin{aligned}
+P_{inj}(r,t) & = P_{0}\{\dfrac{1}{2\gamma}Ei(\dfrac{\alpha x}{4\gamma})+\dfrac{1}{2\gamma}(\ln(\dfrac{\alpha x}{4\gamma})+0.5772)\} \\
+& + P_{0}
+\left\lbrace
+  \begin{array}{lr}
+  -\dfrac{1}{2}\ln(\dfrac{x}{2\gamma})-1 + \dfrac{1}{\gamma} - \dfrac{1}{\gamma}(\ln(\dfrac{\alpha x}{2\gamma^2})+0.5772) & x\leq 2\gamma \\
+  -(\dfrac{x}{2\gamma})^{0.5} + \dfrac{1}{\gamma} - \dfrac{1}{2\gamma}(\ln(\dfrac{\alpha x}{2\gamma^2})+0.5772) & 2\gamma \leq x\leq \dfrac{2}{\gamma} \\
+  -\dfrac{1}{2\gamma}(\ln(\dfrac{\alpha x}{4\gamma})+0.5772) & x\geq \dfrac{2}{\gamma} 
+  \end{array}
+\right\rbrace 
+\end{aligned} 
+\end{equation} 
 
-Detrending the displacement time series allows us to observe small-scale variations in the glacier motion (Figure \ref{fig:transition}). To generate the time series, we selected points where 90\% of the time series was available (infilling the remaining 10\% with the average rate of motion). In all cases, the non-detrended time series show mostly linear motion (Figure \ref{fig:transition}a), while the detrended time series show the influence of the semidiurnal ($\sim$12~h period) tide (Figure \ref{fig:transition}b).  Since our time series span only a few days, it is not possible to identify longer-period tidal components.  Components shorter than 12~h are not significant in the detrended time series.
+where:
+$Ei$ is the exponential integral operator.
+\begin{equation}
+\begin{aligned}
+& P_{0} = \dfrac{Q_m\mu_f}{2\pi H \rho_{f} \kappa} \\
+& \gamma = \dfrac{\mu_{f}}{\mu_{brine}} \\
+& x = \dfrac{(r/r_w)^2}{tQ_m/(2\pi\omega H(r_w)^2 \rho_f)} \\
+& \alpha = \dfrac{Q_m \mu_f (c_{rock}+c_{brine})}{2\pi H \kappa}
+\end{aligned}
+\end{equation}
+where: 
+$r$ is the radial distance to injection well ($m$); $r_w$ is the injector well radius, and we use $r_w = 0.1\ m$ for our calculation; $\rho_f$ is the density of injected fluid ($kg/m^3$); $\mu_f$ is the viscosity of injected fluid ($Pa\cdot s$); $Q_m$ is the mass injection rate ($kg/s$); $t$ is the injection time ($s$); $c_{rock}$ is the formation compressibility ($Pa^{-1}$); $\kappa$ is the formation permeability ($m^2$); $\mu_{brine}$ is the brine compressibility ($Pa^{-1}$); $H$ is the formation thickness ($m$). 
 
+\begin{equation}
+\begin{aligned}
+P_{pro}(r,t) = -\dfrac{Q_{\nu} \mu_{f}}{4 \pi \kappa H}
+				Ei(-\dfrac{\mu_f(\phi c_f + c_{rock}) r^2}{4 \kappa t})
+\end{aligned}
+\end{equation}
+where:
+$Q_{\nu}$ is the volume injection rate ($m^3/s$); $\mu_f$ is the viscosity of produced fluid ($Pa\cdot s$); $c_f$ is the compressibility of produced fluid ($Pa^{-1}$);  $\phi$ is the formation porosity; other parameters are the same as in eq. 1 and eq. 2.   Values of those parameters used in computing the pressure change are listed in Table \ref{tab:table1} - \ref{tab:table2}.  
 
+Second, given the calculated fluid pressure field, we then calculate induced surface displacement.  \citet[]{xu2012fluid} provide an analytical elastic solution for displacement in a half space forced by an arbitrary pressure distribution in the reservoir.  Since the pressure caused by injection/production at individual well can be approximated as radial distribution, we first use Xu's solution to estimate surface displacement centered at each well according to the radial distributed pressure field of that well.  Then, surface displacement of each well is linearly summed up to get the total surface displacement field due to all injection and production activities.  
 
-In order to compare the velocity of the glacier and m\'elange with the tidal amplitude in Sermilik Fjord, we used two approaches. First, we used forecasted tide data from Tasiilaq, $\sim$100 km away, available from the Danish Meteorological Institute \footnote{http://www.dmi.dk/en/groenland/hav/tidevandstabeller-groenland/}. We fitted a cubic spline to the forecasted high/low tide data to generate a smooth tidal signal and used it as a proxy for the tidal signal in the fjord, comparing it to the detrended m\'elange and ice motion signals (Figure \ref{fig:transition}b). The predicted tides at Tasiilaq have a strong semidiurnal signal, which appears in both the m\'elange and glacier motion. The m\'elange moves in-phase with the tides ($\sim$0$^{\circ}$ phase angle, with small variations around large blocks of ice), while the glacier moves out-of-phase with a lag of $\sim$8~h, or $\sim$230$^{\circ}$. 
+The main formulations of the analytical solution for vertical displacement $u_{z}(r)$ and horizontal displacement $u_{r}(r)$ at the radial distance r at the free surface results from the cumulative contribution of all the rings of dilation at radius $r_{0}$ and depth $z'$ \cite{xu2012fluid}.
 
+\begin{equation}
+\begin{aligned}
+& u_{z}(r)=-\frac{2(1+\nu)(1-2\nu)}{\pi E} \iiint \limits_{0 0 Z_1}^{\ \ \ \infty \pi Z_2} 
+\frac{p(r_{0},t) z'}{(z'^{2} + r^2 + r_{0}^2 - 2rr_{0}cos\varphi)^{1.5}} r_{0} dz' d\varphi dr_{0} \\
+& u_{r}(r)= \frac{2(1+\nu)(1-2\nu)}{\pi E} \iiint \limits_{0 0 Z_1}^{\ \ \ \infty \pi Z_2} 
+\frac{p(r_{0},t) (r-r_{0}cos\varphi)}{\rho'^3 (z'^{2} + r^2 + r_{0}^2 - 2rr_{0}cos\varphi)^{1.5}} r_{0} dz' d\varphi dr_{0}
+\end{aligned}
+\end{equation}
 
+where:
+$\nu$ is the Poisson’s ratio; E is the Young’s modulus ($GPa$); $p(r_0,t)$  is the pressure change ($Pa$) at radial distance $r_0$ and time $t$,  $\phi$ is the difference of azimuthal angle between surface point and the dilation center; $z_1$ is the depth of reservoir lower bound ($m$) and $z_2$ is the depth of reservoir upper bound ($m$). 
 
-Second, we used the TRI data to estimate tides directly. Although the m\'elange has significant vertical as well as horizontal motion, we can extract only one component from our line-of-sight measurements.  If we assume that the vertical component dominates, we can use the TRI data to compare m\'elange motion to the forecasted tide from Tasiilaq, as follows. We take the displacement time series for a pixel in the m\'elange whose horizontal motion (assumed down-fjord) is perpendicular to the radar line-of-sight (i.e. we assume that the line-of-sight measurement is little affected by horizontal motion and that there is no side-to-side motion in the fjord).  Since the radar is positioned $\sim$300~m above the fjord, its near range observations include a significant component of vertical motion of this pixel due to the vertical beamwidth of the antennas. Therefore, the radar measures a projection of the vertical motion of this pixel onto the look vector (line-of-sight) (see supplementary information).  Subsequently, the full vertical motion can be estimated by dividing the measured motion by the ratio of radar elevation to slant range to the pixel. This projection closely matches the predicted tidal range (Figure \ref{fig:transition}b). 
+Each of these solutions has been validated through numerical simulations \cite{xu2012fluid,mathias2009approximate} or comparison with in situ observation \cite{theis1935relation}. However, the analytical model used in our paper has its limitations relating to the complexity of subsurface structure and deformation processes.  But the simple analytical allows us to estimate large-scale pressure change and surface displacement by considering the realistic injection and production history for hundreds of operation wells.  The calculation time is fast compared to more complex models, and as we shall show, provides an adequate fit to our data. 
 
+\subsection{Input parameters of the analytical simulations}
+The depth and thickness of the reservoir are irregular \cite{han2010evaluation}.  In our model, we use an average thickness of 200 m, ranging from depth 2000 m to 2200 m, based on the depths of injection wells provided by Railroad Commission of Texas (RRC) and personal communication with the operator of the field.  The average porosity (9.8\%) and permeability (19 mD) reported by \citet{raines66} were measured from a core-flooding test, which typically does not include reservoir scale imperfections such as fractures and other forms of secondary porosity. Obviously, the reservoir is very heterogeneous \cite{han2010evaluation} but our analytical solution only requires mean porosity and permeability values.  To better represent its variation, we choose three levels of porosity and permeability (low, medium and high), and predict three corresponding sets of pressure change and surface displacement.  We utilize the relationship between porosity and permeability for the Canyon formation (the third sequence) given by \citet{lucia2004permeability} to calculate permeability based on three-levels of porosity (Table \ref{tab:table1}).  Rock formation (limestone) compressibility is obtained from \citet{newman1973pore}.  These and other properties of the reservoir formation are summarized in Table \ref{tab:table1}.  We further assume that the extracted hydrocarbon gas is purely methane, and that the salt concentration of injected water is 0.15 kg/l.
 
-During our observation period, high tide and high m\'elange decrease the speed of the glacier by about 10\%.  We used spectral analysis to investigate the impact of tides on glacier and m\'elange motion, specifically the spatial variability of a single tidal frequency (i.e., the dominant semidiurnal tide) in the detrended displacement time series. We decomposed each detrended displacement time series into its respective frequencies using a Fast Fourier Transform (FFT), and found the power of the frequency associated with the semidiurnal tidal signal (12.6 h from the FFT, close to the M2 and N2 tidal periods of 12.42 and 12.66 h respectively). A periodogram for each pixel shows the relationship between the spatial location and the power of the tidal frequency (proportional to the square of the tidal amplitude). This information was used to produce a map of tidal power (Figure \ref{fig:maps}a) using the method of \citet{glover2011modeling}. 
+Fluid properties (CO$_{2}$, water, methane and oil) at reservoir pressure (16 MPa) and temperature (41.5 \textordmasculine C) are summarized in Table \ref{tab:table2}.  Properties of supercritical CO$_{2}$ and methane are obtained from the NIST fluid properties website (http://webbook.nist.gov/chemistry/fluid/).  Properties of salt water are derived based on the empirical correlations with pressure, temperature and salt concentration shown in \citet{mathias2009screening}.  Density and viscosity of the produced oil are obtained from \citet{vest1970oil}.  Oil compressibility is obtained from \citet{satter2008practical}.
 
-There is an apparent change in the power of the tidal frequency, with higher values close to the open fjord diminishing with proximity towards the terminus. This is a geometric artifact reflecting the higher sensitivity of the instrument to vertical motion in the near field.  With this geometry, the line-of-sight sensitivity of the radar to vertical motion decreases with distance as a function of radar elevation divided by slant range. We corrected for this in the power map (Figure \ref{fig:maps}a) and in Figure \ref{fig:profiles}a by subtracting a theoretical sensitivity curve. After accounting for this effect, we observe a narrow zone ($\sim$500~m wide) of increased tidal power in the vicinity of the terminus (Figure \ref{fig:profiles}a).
+Two geomechanical parameters, Young’s modulus and Poisson’s ratio, are needed for surface displacement calculation.  However, there are no publicly available data for these two geomechanical properties for the overlaying Walfcamp shale.  Since surface displacement is less sensitive to Poisson’s ratio, a common result in many Earth deformation problems \cite[e.g.,][]{bevis2005seasonal}, we set the value of Poisson’s ratio to 0.25, and then forward model to estimate the value of Young’s modulus that best fits the surface displacement observed by InSAR. We selected a profile across the significant inflation area for comparison between model simulation and InSAR observation (Figure 1).  Grid search ranges are 1 – 50 GPa with search increments of 1 GPa.  Goodness of fit is assessed using the standard chi-square statistic.
 
+\subsection{Injection and production data during 2004 - 2011}
+Monthly injection and production rates during 2004 to 2011 at individual wells in the field were provided by the field operator. Information concerning locations and depths of individual wells is provided by the RRC.  Both CO$_{2}$ and water were injected into the reservoir from 2004 to 2011 (Figure \ref{fig:inj_pro_hist}).  In detail, 409 wells injected CO$_{2}$; 217 wells injected water and 603 wells extracted oil and HC gas.  In this field, injected CO$_{2}$ is often mixed with water, and extracted oil and HC gas are often mixed with CO$_{2}$ and water.  Location of active injection and production wells during 2004 - 2011 is shown in Figure \ref{fig:real_wells}.  
 
-We can also use the phase of the dominant frequency in the FFT to investigate changes in phase over the m\'elange and ice front. We offset the phase to be 0~h at the m\'elange, and use it as a reference for the lag times. The phase is relatively constant within the m\'elange up to the transition zone, where it begins to lag by $\sim$6~h (170$^{\circ}$). The glacier ice experiences an additional lag of $\sim$30-60 minutes ($\sim$15-30$^{\circ}$) over the first 1 km from the ice front (Figure \ref{fig:maps}b, Figure \ref{fig:profiles}b). A comparison profile between the tidal power and the phase lag is shown in Figure \ref{fig:profiles}b, and examples of the detrended m\'elange, transition zone, and glacier motion signals are shown in Figure \ref{fig:transition}. The location of the transition zone is shown in Figure \ref{fig:maps}.
+To reduce the computation we divide the field into grids of 500 m width (Fig. 6). We then approximate the injection/production history by placing a virtual well at the center of each grid.  For CO$_{2}$ and water, we calculate the mean injection/extraction rate by adding the net fluid injection and extraction for that grid respectively.  For oil and HC gas, the production rate is set equal to the net fluid extracted for that grid. 
 
-We model the glacier’s velocity response to tidal forcing using the viscoelastic flow line model of \citet{walker2012viscoelastic,walker2014ice}, configured without an ice shelf. This model assumes negligible lateral drag from the glacier margins.   Tidal forcing is considered a perturbation to a steady background velocity, defined by the momentum equation, which balances gravitational driving forces, related to ice density, ice thickness and basal topography,  and resisting forces from basal drag, $\tau_b$, related to ice velocity $u$ and shear stress exponent $m$ for the glacier bed: $\tau_b (u)=\beta^2 u^{\frac{1}{m}}$, where $\beta^2$ is an empirically-determined coefficient fitted to velocity measurements. Ice rheology is represented by a simple Maxwell viscoelastic model, whereby ice responds elasticly (defined by Young’s modulus $E$) on short time scales, and viscously on long time scales.  For the short time scales considered here, the viscous term, ice thickness and bed topography can all be considered constant.  At some upstream limit determined from observations, tidal perturbations can be considered negligible, leading to constant velocity and driving stress boundary conditions.  
+To compare with InSAR observations, we should predict surface displacement from January 2007 to March 2011.  However, pressure change due to constant rate injection/production is not linear with time: fluid pressure changes significantly in the first few months and then slows down \cite{rohmer2012applicability}.  Thus, for a well being operated before 2007, pressure change during 2007 to 2011 cannot be simply calculated by just using data from January 2007 to March 2011.  To address this problem, we check the injection/production history of every well to see if there is any operation before 2007.  If there is, we calculate pressure changes during two periods for that well: one period from the beginning of operation to March 2011 and second period from the beginning of operation to December 2006. We then subtract the pressure change during the second phase from the pressure change during the first phase to derive pressure change between January 2007 and March 2011 (the period of InSAR observations).   If there is no operation prior to 2007, pressure change is calculated using data from January 2007 to March 2011.  It is worth noting that fluid production and injection in the field started in 1948 and 1954 respectively, and we only have injection/production data for each well from 2004. Thus, in our simulation, the operational beginning of each well is not earlier than 2004.  
 
-We focused on determining an optimal average Young's modulus (\textit{E}) for the glacier ice, and an average sliding law exponent (\textit{m}) for the glacier bed over first 10 km upglacier from the terminus (the area imaged by the TRI that is sensitive to tidal forcing).   The boundary conditions of the model include a periodic stress rate at the ice front, implying that the only stress causing the velocity perturbation is the hydrostatic pressure change from the tide forced solely by the M2 tidal component.  The model also assumes a constant ice thickness of 700~m (which also represents flat bed topography, as the model depends on ice thickness rather than directly on the bed) and an ice viscosity of $10^{14}$~Pa$\cdot$s. Following \citet{verger2011tidewater}, we assigned a background basal shear stress of 170~kPa, and set the upstream distance parameter and upstream velocity at which the tidal forcing becomes negligible to 12-16~km and 10~m~d$^{-1}$ respectively. In order to increase signal to noise ratio for input data to the model, we used a synthetic inline velocity time series derived from the tidal data and the TRI measurements by filtering the data for the dominant M2 tidal constituent using T-TIDE \citep{pawlowicz2002classical}, a Matlab-based toolkit for analyzing the harmonic properties of ocean tides.  We tested \textit{E} values between 0.1~GPa (weak ice) and 1~GPa (stronger ice) and varied the sliding law exponent between 1 (linear bed), 3 (weakly nonlinear bed), and 8 (nonlinear bed). The best fit model for the glacier's response to tidal forcing suggests weak ice (\textit{E}=0.1~GPa) flowing over a linear or weakly nonlinear bed (\textit{m}=3) (Figure \ref{fig:model}). 
+\section{Simulation results}
+Figure 7 shows the simulated changes in reservoir pressure due to different fluid injection/extraction rates for three assumed values of rock formation porosity and permeability.  The local maxima and minima patterns are similar for the different values of porosity and permeability.  Calculated pressure change in the reservoir decreases for higher values of porosity and permeability.  Net CO$_{2}$ injection/production significantly affects reservoir pressure.  Since volumes of water injection and production are approximately the same (Figure 2, Figure 4b), pressure changes due to net water injection are negligible compared to those caused by net CO$_{2}$ injection, indicating that surface uplift observed by InSAR is dominated by CO$_{2}$ injection. Net water injection/production causes pressure buildup/drawdown in different areas of the field.  Net oil and hydrocarbon gas production generally causes pressure drawdown in the field.  In summary, pressure changes due to CO$_{2}$ injection and production are much higher than that caused by water injection/production and oil/hydrocarbon gas production.
 
+Figure 8 shows the simulated total pressure buildup due to all fluid injection and oil/hydrocarbon gas production production for three assumed values of porosity and permeability. The low value of porosity and permeability condition yields pressure buildup up to 10 MPa, while the high value yields up to 2 MPa pressure buildup. Maximum pressure buildup is more spread out for the high porosity and permeability values.
 
+Based on the simulated pressure change field, a grid search method was used to estimate the value of Young’s modulus that best fits the InSAR observations along the profile marked in Figure 1.   To compare with InSAR LOS displacement, we convert the predicted surface displacement to LOS displacement using satellite azimuth and incidence information.  Figure 9 shows goodness of fit versus Young’s modulus at three levels of pressure change.  The best-fit values for Young’s moduli are listed in Table \ref{tab:table3}.  Predicted LOS displacements using the best-fit Young’s modulus at the three levels of pressure change are compared to the InSAR data along the profile (Figure 10).  All three predictions agree well with InSAR observations along the profile.  The high-pressure condition provides the smallest misfit between model prediction and observation, but the difference with the other models is small.  The low and medium pressure conditions also provide a good fit between model prediction and observation.  However, the best-fit Young’s moduli derived from the low and medium pressure conditions (6 GPa  and 10 GPa) are quite small compared to the best-fit Young’s modulus derived from the high-pressure condition (18 GPa), and are on the low side of plausible crustal values.   A similar deformation study in south Texas \cite{karegar2015gps} where pressure data were available for calibration gave a best estimate of average Young’s modulus of 55 GPa +80/-20 GPa; at 95\% confidence, the minimum estimate obtained in that study was 15 GPa, similar to our high estimate.  We therefore take the estimate of 18 GPa as the most plausible value for Young’s modulus and the corresponding estimate of the high-pressure buildup condition (up to 10 MPa) as the best pressure change estimate.
+
+We then predict 2D LOS displacement fields for the three models of pressure change respectively using the best-fit Young’s modulus derived from the profile fitting analysis.  Simulated 2D LOS displacement at the high-pressure change condition and the residual between InSAR observation and model prediction are shown in Figure 11.  Our simulation is able to match most of the uplift signal observed by InSAR.  However, up to 4 cm of residual uplift remains.  The residuals likely reflect a combination of atmospheric and reservoir heterogeneity.  The former reflects deviations from the assumption used in our data analysis that atmospheric properties are laterally uniform.  The latter reflects deviations from the assumption used in our modeling that the rheological properties of the reservoir are vertically and horizontally uniform. 
 
 \section{Discussion}
-While the majority of glacier speed variation we observe is associated with a 12~h tidal period, the m\'elange and glacier motion are out-of-phase (Figure \ref{fig:profiles}). This transition happens in the fjord in front of the terminus. In this zone, the m\'elange, which is in-phase with the tides far from the glacier, transitions to an out-of-phase signal synchronized with the glacier motion. Figure \ref{fig:transition} shows the comparison of the glacier/m\'elange motion with the tides and illustrates the presence of the transition zone and the existence of phase lags on the glacier surface, which increase with distance from the terminus. There is no apparent transition zone in the m\'elange between the deeper portion of the fjord and the fjord walls (Figure \ref{fig:maps}), likely suggesting that the m\'elange near the walls is reasonably loose and is directly influenced by the tides. However, a broader radar coverage of both fjord walls (currently only the south wall is visible in the radar imagery) would be necessary to confirm this. 
+We modeled a reservoir as a simplified body with uniform properties.  In fact, it almost certainly has significant spatial variation in porosity, permeability and elastic properties.  We have also ignored inter-well pressure interaction when simulating reservoir pressure change.  Despite these simplifications, we are able to obtain good fits to the surface deformation data and obtain useful information on the reservoir.  This reflects the fact that the free surface is 2000 m above the reservoir, hence the effects of reservoir heterogeneity and inter-well pressure interactions on surface deformation are relatively small.  In effect, the intervening crustal material acts like a low pass filter, attenuating short wavelength strain effects associated with spatial complexities of the reservoir and the injected fluid.  
 
+The relatively large uncertainty in our estimate of Young’s modulus reflects the weak resolving power of surface deformation data for this parameter.  Independent determination of Young’s modulus from down-hole measurements, 3-D seismic surveys, or laboratory experiments on well bore samples would allow a more quantitative link between surface deformation and reservoir pressure change.
 
-The transition from in-phase m\'elange motion to out-of-phase glacier motion, and the narrowness of the transition zone, we hypothesize can be explained as follows. The fjord is dominated by the tightly packed m\'elange, which moves in-phase with the tidal signal, and has a relatively constant tidal power up to about one km from the glacier terminus. The drop in tidal power before the sharp increase corresponds to the  location in the m\'elange that is starting to feel the frictional resistance of the ice wall (damping vertical motions of the m\'elange), and where the signal starts to change to an out-of-phase signal like that of the glacier (i.e., the phase change happens in the fjord). Destructive interference nearly eliminates the tidal signal in a band near the calving front (Figure \ref{fig:maps}).  Approximately 300~m from the terminus (still in the m\'elange) the tidal signal picks up again, but this time, out-of-phase with the tides (high tide equals slow velocity) reaching a local power maximum around the ice cliff.  Subsequently, the power of the tidal frequency begins to diminish with distance inland from the terminus. 
-
-
-The m\'elange/glacier profile shows a small phase lag with increasing up-glacier
-distance from the calving front (30-60 minutes over the first
-kilometer, in addition to the phase lag difference between the terminus and the m\'elange) (Figure \ref{fig:profiles}). The phase lag may reflect glacier bed rheology,
-as friction from sliding over the bed sediments may dampen and offset
-the glacier's response to tides \citep{walker2014ice}. 
-In the first kilometer up-glacier from the calving front, the amplitude of the detrended displacement is damped by a factor of 3 (0.15~m amplitude at the ice front vs 0.05~m amplitude behind the ice front) with a small change in phase lag (Figures \ref{fig:transition} and \ref{fig:profiles}). The glacier's response to tides is also highly
-dependent on the rate of applied stress, which is controlled by the
-tidal period. A semidiurnal tide has higher applied stress rates than
-a diurnal tide, suggesting that a semidiurnal tide can cause the same velocity perturbation as a diurnal tide but with only half of the tidal amplitude \citep{walker2014ice}.
-  
-The two key variables  in the flow line model are Young’s modulus, \textit{E}, reflecting the elastic properties of ice, and the sliding law exponent, \textit{m}, reflecting bed rheology. The modeling goal was to get \textit{E} low enough and \textit{m} high enough such that the modeled signal matched the measured velocity perturbation at the terminus, without propagating tidal effects too far upstream. High \textit{E} makes the ice stiffer and harder to deform for a given forcing, and causes deformation to extend further upstream. Low \textit{E} has the opposite effect, and looks more like our data, resulting in a reasonably large response relative to the size of the forcing with a lack of upstream propagation. High \textit{m} (i.e., plastic bed) leads to a large response to forcing that propagates upstream strongly and rapidly. Plasticity (infinitely high \textit{m}) also causes the glacier to respond instantaneously to the tide rate, which is not observed in the data. In the best fit model with weak ice (\textit{E}=0.1~GPa) flowing over a linear or weakly nonlinear bed (\textit{m}=3), the lag between the glacier's velocity response and the applied tidal rate is $\sim$1.5~h, or $\sim$45$^{\circ}$ for the semidiurnal tide, matching the observations shown in Figure \ref{fig:model}. 
-
-
-The low value of Young’s modulus (\textit{E}=0.1~GPa) compared to laboratory results for unfractured ice (\textit{E}=9.3~GPa) \citep{reeh2003tidal}
-probably reflects the deeply crevassed and damaged ice in the first $\sim$10 km upstream from the terminus. Furthermore, the modeled area also happens to be the zone where trunks of the glacier merge and bend, which may influence the ice behavior due to additional compression. The weakly nonlinear bed parameter likely suggests that the glacier motion may be controlled by ice deformation, sliding over a hard-bed, or low-stress-exponent till deformation, as opposed to sliding over weakly velocity-strengthening till arising from a plastic bed \citep{licciardi1998deglaciation,walker2012viscoelastic}. 
-
-
-
-Although we did not observe any calving events, the modeling from this study can be used as a starting point for more detailed modeling efforts (e.g., those that include a two-dimensional map plane version of the flowline model, calving, and additional TRI measurements). It is also important to note that our current model focuses only on the first 10 km upstream from the terminus, assumes uniform and time-invariant bed properties, and does not address any changes in the surface slope of the glacier with time.  Changing the ice thickness (also a proxy for bed topography) changes only the amplitude of the tidal signal (but not its timing) with negligible effects considering that the ice is very weak. Furthermore, the upstream distance and velocity where the tidal forcing becomes negligible were determined from an older data set \citep{verger2011tidewater}, suggesting that concurrent TRI measurements near the terminus and GPS measurements further upstream may be valuable for future studies. Targeted radio-echo sounding is also needed to account for the variable bed topography and the possibility of temperate ice at depth, which would result in a depth-dependent ice rheology, not considered in our model.
-
-
+\citet{gan2013gas} suggested that increasing earthquakes in the Cogdell field, north of our study area, during 2006 – 2011 were likely triggered by CO$_{2}$ injection.  However, our study area, which has also experienced significant fluid injection over the same time period, has not experienced a significant increase in seismicity.  Meanwhile, InSAR data show no surface uplift in the Cogdell field, while measurable uplift is observed in our study area.  The different seismic and deformation responses to fluid injection between these two fields may reflect differences in regional subsurface structures.  Our study area has been mapped as a single large reef mound, but structures in the Cogdell field show more spatial variation \cite{vest1970oil}. The Cogdell limestone may have experienced more intense weathering and karsting compared to our study area \cite{reid1991cogdell}, potentially creating more heterogeneous structures, and potential faults and fractures.  The recent earthquakes suggest the presence of faults in the Cogdell field.   The absence of mapped faults and earthquake activity in our study area suggests no active faulting.  Perhaps triggered earthquakes occur when injected gas or fluid reaches suitably orientated pre-existing faults, reducing the resolved normal stress and hence the effective friction, and promoting seismic slip on pre-existing faults.  
 
 \section{Conclusions}
-We present a new method for observing the relationship between tides, proglacial m\'elange, and glacier velocity. At Helheim Glacier, the m\'elange/glacier motion relationship suggests that tidal forcing has a direct impact on glacier velocity. High tide resists and slows the glacier, while low tide allows the glacier to speed up. During our study period, the glacier velocity was up to 25~m~d$^{-1}$ and detrended glacier displacement was $\sim$8~h out-of-phase with the tidal height.  Modeling suggests that the magnitude and timing of the glacier's velocity response to tidal forcing represents weak ice flowing over a weakly nonlinear bed, suggesting that the motion may be controlled by ice deformation, sliding over a hard-bed, or low-stress-exponent till deformation. The dense spatial and temporal coverage of the glacier provided by TRI allowed us to produce spatial maps of the tidal response and lag, where previously this has only been done on a streamline. The TRI also allowed us to describe the variability in the phase lag between the m\'elange and the glacier, in particular, imaging a narrow ($\sim$500~m wide) transition zone in front of the terminus.
+We evaluated injection and production data for CO$_{2}$, water, oil and hydrocarbon gas at individual wells in a CO$_{2}$-EOR field between 2004 and 2011. Approximately 50 Mt of CO$_{2}$ were sequestered between 2004 and 2011, equal to the total sequestered CO$_{2}$ between 1972 and 2003.  InSAR data observe up to 10 cm line of sight displacement between January 2007 and March 2011 in this field.  Water injection alone cannot explain surface uplift between January 2007 and March 2011 because net injected water ($\sim$1~Mt) is negligible during this period.  However, significant amounts of CO$_{2}$ ($\sim$24~Mt) were injected into the reservoir, contributing to observed surface uplift.  An analytical simulation relating reservoir pressure and surface displacement using realistic injection and production data from individual wells predicts up to 10 MPa pressure buildup due to net fluid injection and production in 2007- 2011, using assumed average values of porosity and permeability.  With better information on the mechanical properties of the reservoir, InSAR data could directly estimate reservoir pressure changes with time.  
 
-% \conclusions  %% \conclusions[modified heading if necessary]
-% TEXT
-%                              %% Appendix A1, A2, etc.
+\section{Acknowledgements}
+We thank the field operator for providing historical injection and production data. We also thank the Railroad Commission of Texas for providing information on the location and depth of individual wells in our study area. This research was supported by DOE grant DE-FE0001580. We thank Karen Kluger for support and advice throughout our project and two anonymous reviewers for thoughtful comments.  
 
-
-
-
-\section{Acknowledgments}
-Field support for this project was provided by NYU Abu Dhabi grant G1204 and NSF Office of Polar Programs grant ARC-0806393.  Analysis was supported in part by NASA grant NNX12AB69G to DMH and NNX12AK29G to THD.  Denise Holland is thanked for organizing the field logistics and project meetings. Additional support to DV and THD was provided by start-up funds from the University of South Florida. Please contact Denis Voytenko about any data-related questions. We thank Martin Truffer, Ted Scambos, and one anonymous reviewer along with two anonymous reviewers of an earlier version of the manuscript for their valuable comments.
-
-
-
-% \newpage
+\clearpage
 \section{References}
+\bibliographystyle{apalike}  
+\bibliography{refsnew_firstname}
 
-% 
-% authors generating their own bbl file would uncomment the following two lines, and comment out/delete the references below:
-\bibliography{refsnew_firstname}% reads igs2eguide.bib
-\bibliographystyle{apalike}  % imposes IGS bibliography style on output
-% 
-% % however, we are going to include igs2eguide.bbl here:
-% 
-\newpage
+\clearpage
+\begin{table}[h!]
+	\begin{center}
+		\begin{threeparttable}
+			\caption{Reservoir homogeneous properties used for pressure change calculation.}
+			\label{tab:table1}
+			\begin{tabular}{cccccc}
+				\midrule
+				Reservoir Property & Symbol & Value & & & Unit\\
+				\midrule
+				Porosity & $\varphi$ & 0.2(L) & 0.25(M) & 0.3(H) & \%\\
+				Permeability & $\kappa$ & 17(L) & 57(M) & 152(M) & mD\\
+				Initial pressure & \textit{P$_{0}$} & 16 & & & MPa\\
+				Temperature & \textit{T} & 41.5 & & & $^{\circ}$C\\
+				Depth (reservoir upper bound) & \textit{Z$_{1}$} & -2000 & & & m\\
+				Depth (reservoir lower bound) & \textit{Z$_{2}$} & -2200 & & & m\\
+				Thickness & \textit{H} & 200 & & & m\\
+				Formation compressibility & \textit{C$_{rock}$} & 5.3E-10 & & & 1/Pa\\
+				\midrule
+			\end{tabular}
+			\begin{tablenotes}
+				\small
+				\item \textit{Note}: \textit{L}, \textit{M} and \textit{H} represent low level, medium level and high level of porosity and permeability, respectively.
+			\end{tablenotes}
+		\end{threeparttable}
+	\end{center}
+\end{table}
 
+\clearpage
+\begin{table}[h!]
+	\begin{center}
+		\caption{Fluid properties at depth (16MPa,41.5 $^{\circ}$C).}
+		\label{tab:table2}
+		\begin{tabular}{ccccccc}
+			\midrule
+			Fluid property & Symbol &\multicolumn{4}{c}{Value} & Unit \\
+			\cmidrule(l){3-6}
+			&& Brine & CO2 & Methane & Oil &\\
+			\midrule
+			Density & $\rho$ & 1105 & 784 & 115 & 818 & kg/m$^{3}$\\
+			Viscosity & $\mu$ & 9.41E-04 & 6.85E-05 & 1.67E-05 & 3.75E-04 & Pa$\cdot$s\\
+			Compressibility & C & 3.40E-10 & 2.10E-08 & 5.43E-08 & 2.17E-09 & 1/Pa\\
+			\midrule
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\clearpage
+\begin{table}[h!]
+	\begin{center}
+		\begin{threeparttable}
+		\caption{Highest pressure buildup and best-fit Young's modulus at three levels of porosity and permeability.}
+		\label{tab:table3}
+		\begin{tabular}{cccc}
+			\midrule
+			Level of porosity and permeability & Highest $\triangle$\textit{P} (MPa) & Best-fit \textit{E} (GPa) & $\chi$$^{2}$\\
+			\midrule
+			Low & 10.32 & 18 & 0.78\\
+			Medium & 4.32 & 10 & 0.80\\
+			High & 2.10 & 6 & 0.83\\
+			\midrule						
+		\end{tabular}
+		\begin{tablenotes}
+			\small
+			\item \textit{Note}: \textit{E} represents Young's modulus. $\triangle$\textit{P} represents calculated pressure change. $\chi$$^{2}$ represents normalized chi square value.
+		\end{tablenotes}
+		\end{threeparttable}
+	\end{center}
+\end{table}
+
+\clearpage
 \begin{figure}
 \centering
-\includegraphics[width=.6\textwidth]{fig1new.png}
-\caption[(a) TRI radar amplitude image overlain on a LANDSAT image (2002/07/27; obtained from landsatlook.usgs.gov).]{(a) TRI radar amplitude image overlain on a LANDSAT image (2002/07/27; obtained from landsatlook.usgs.gov). The arc indicates the area scanned by the radar. The blue star represents the radar location, the black box outlines the area shown in Figures \ref{fig:DEM}, \ref{fig:velocities} and \ref{fig:maps}, the orange dots (G, F, T, and M) show the locations of sampled points in Figure \ref{fig:transition}, and the yellow star represents the location of the GPS. Coordinates are in UTM zone 24N. Inset map shows location of Helheim Glacier (red star) along the southeast coast of Greenland. Dashed contours show InSAR-derived velocities from 2008-2009 MEaSUREs Greenland Ice Sheet Velocity Map \citep{joughin2010measures,joughin2010greenland}.}
-\label{fig:sitelocation}
+\includegraphics{figs_paper3/Fig1a.pdf}
+\label{fig:map_los_a}
 \end{figure}
 
+\clearpage
 \begin{figure}
 \centering
-\includegraphics[width=.5\textwidth]{dem.png}
-\caption[TRI-derived Digital Elevation Model illustrating small variations in glacier topography near the terminus (elevations relative to local sea level).]{TRI-derived Digital Elevation Model illustrating small variations in glacier topography near the terminus (elevations relative to local sea level). The contours represent velocities measured with the TRI adjusted for the direction of flow (Figure \ref{fig:velocities}b). There are higher velocities north and south of the lower-elevation medial moraine, outlining the trunks of the glacier. }
-\label{fig:DEM}
+\includegraphics{figs_paper3/Fig1b.pdf}	
+\caption{a) Total LOS (line of sight) displacement from from January. 08, 2007 to March. 06, 2011. b) A SAR intensity image of the study area.  Red star represents location of the town of Snyder, Texas.  Light grey lines are county boundaries and county names are labeled.  Red lines are the boundaries of our study area, Scurry County.  Blue line is the approximate boundary of the oil field in the study area.  Black dashed line represents location of a profile for surface displacement modeling in the following sections.}
+\label{fig:map_los_b}
 \end{figure}
 
-
+\clearpage
 \begin{figure}
-\centering
-\includegraphics[width=\textwidth]{velfig.png}
-\caption[Comparison of measured line-of-sight velocity (a) and velocity in the direction of glacier motion (b).]{Comparison of measured line-of-sight velocity (a) and velocity in the direction of glacier motion (b). The velocity in the direction of glacier motion was obtained by dividing the measured line-of-sight velocity by the cosine of the angle given by the difference between the radar look direction to that point and the direction of ice motion (95 degrees clockwise from north). This suggests that it is possible recover values close to the true magnitude of the glacier's velocity from the line-of-sight measurements. Note that the area covered by the adjusted map is smaller than the area of the measured velocity. This is because this method does not work well in zones where the cosine of the angle between the radar look direction and the direction of ice motion approaches zero.}
-\label{fig:velocities}
+	\centering
+	\includegraphics{figs_paper3/Fig2.pdf}	
+	\caption{Injection and production history of the study site.  Phase I is the primary recovery phase.  Phase II is the secondary recovery phase.  Phase III is the tertiary/enhanced oil recovery phases.  Volumes of fluid injection and production are reported at 16 MPa, 41.5 \textordmasculine C (pressure and temperature at reservoir depth). HC is hydrocarbon.}
+	\label{fig:inj_pro_hist}
 \end{figure}
 
-
+\clearpage
 \begin{figure}
-\centering
-\includegraphics[width=\textwidth]{combined_new.pdf}
-\caption[Time series from August, 2013.]{Time series from August, 2013. (a) Raw displacement time series for points on the glacier surface. (b) A comparison between the forecasted tides at Tasiilaq, m\'elange motion measured directly by the TRI, and glacier motion. Note that even though the raw displacement time series appear to be almost linear, the precision of the TRI allows us to observe small-scale variations in the detrended data. The m\'elange (M) has a similar vertical range and moves in-phase with the tides, while the glacier  (G, F) moves out-of-phase. The signal in the transition zone (T) has weak tidal power and consequently lacks a characteristic sinusoid associated with a tidal signal. The motion of the glacier surface behind the terminus (G) has a lower amplitude and an increased lag compared to the motion signal at the terminus (F). All acquisition times are UTC. The measurement uncertainty is of order 1~mm and the velocity uncertainty is of order 0.02~m~d$^{-1}$. }
-\label{fig:transition}
+	\centering
+	\includegraphics{figs_paper3/Fig3.eps}	
+	\caption{DEM of our study area.  Black lines are the boundaries of the area covered by the interferogram.  Red star represents location of the town Snyder, Texas.}
+	\label{fig:dem}
 \end{figure}
 
+\clearpage
 \begin{figure}
-\centering
-\includegraphics[width=\textwidth]{powlag.png}
-\caption[(a) Spatial variability in corrected tidal power.]{(a) Spatial variability in corrected tidal power. Note that the tidal power is strong within the m\'elange, and that it sharply drops off in front of the terminus, defining the transition zone. (b) Map of phase lag, with the m\'elange lag set to 0~h for reference. Note the sharp increase in phase lag at the  transition zone at the terminus, followed by a gentle increase in phase lag up-glacier from the terminus. Also note that there is relatively sparse data coverage along the central trunk of the glacier due to heavy crevassing. The black line represents the profile in Figure \ref{fig:profiles}. The terminus outline is given by the dashed black line.}
-\label{fig:maps}
+	\centering
+	\includegraphics{figs_paper3/Fig4.pdf}	
+	\caption{a) Comparison between Line of Sight (LOS) displacement at Snyder (red star marked in Figure 1) and cumulative volumes of stored (injection minus production) CO$_{2}$ and water in the field from January 2007 to March 2011.  b) The total volumes of injected/produced/stored CO$_{2}$, water, oil and HC gas in the field from January 2007 – March 2011.  Volumes of fluid injection and production are reported at 16 MPa, 41.5 \textordmasculine C.}
+	\label{fig:los_cumul_store}
 \end{figure}
 
-
-
+\clearpage
 \begin{figure}
-\centering
-\includegraphics[width=\textwidth]{mod_inset2anew_mod.pdf}
-\caption[A smoothed transect along the flow direction of the glacier showing variability in tidal power (a) and phase lag (b).]{A smoothed transect along the flow direction of the glacier showing variability in tidal power (a) and phase lag (b). The power is the sum of the squares of the real and imaginary components of the dominant FFT signal, the phase is the inverse tangent ratio.  The terminus location is marked by the vertical red line. Note the relatively sharp spike (i.e. dropoff and pickup) in the tidal power around the terminus and the corresponding rapid change in phase. The inset in (b) shows the typical detrended signal in glacier motion (displacement vs time) with increasing distance from the terminus (distances given in legend). Increasing up-glacier distance from the terminus reduces tidal amplitude and slightly increases the phase lag, which is visible in the inset above the legend. This phase lag corresponds with the sloping portion of the main part of the figure directly below the inset. The full vertical range in the inset is approximately 20~cm while the horizontal axis spans roughly 2~d.}
-\label{fig:profiles}
+	\centering
+	\includegraphics[width=\textwidth]{figs_paper3/Fig5.pdf}	
+	\caption{Map of study area, showing total LOS displacement from January 08, 2007 to March. 06, 2011, a) wells injecting CO$_{2}$ (green circle) and water (blue circle), and b) well producing CO$_{2}$, water, Oil and HC gas (red triangle).}
+	\label{fig:real_wells}
 \end{figure}
 
+\clearpage
 \begin{figure}
-\centering
-\includegraphics[width=\textwidth]{model_mod1.pdf}
-\caption[Model results and comparison to tidal height, negative applied tidal rate, and velocity perturbation.]{Model results and comparison to tidal height, negative applied tidal rate, and velocity perturbation. The best fit model (black line) with \textit{E}=0.1~GPa (weak ice) and \textit{m}=3 (weakly nonlinear bed) closely matches the velocity response of the terminus to tidal perturbations (red circles, M2 velocity component). When \textit{E}=1~GPa and \textit{m}=3 (yellow line) there is little response at the terminus and too much upstream. When \textit{m}=1 and \textit{E}=0.1~GPa (blue line) there is an inadequate response at the terminus, suggesting that \textit{E} would need to be lowered even more to match the terminus value. However, this might not be physically plausible. When \textit{m}=8 and \textit{E}=0.1~GPa (green line), the velocity response at the terminus is too high, while increasing \textit{E} to 1~GPa (magenta line) reduces the terminus response too much and causes a greater response upstream. Note that the plotted velocity perturbation (M2 velocity) appears smoothed because it is a single tidal frequency representation of the data from the TRI measurements. }
-\label{fig:model}
+	\centering
+	\includegraphics{figs_paper3/Fig6.pdf}	
+	\caption{Location of virtual wells for each type fluid and the average monthly injection/production rate for each virtual well.  Circles represent injection wells and triangles represent production wells.  Volumes of fluid injection and production are reported at 16 MPa, 41.5 \textordmasculine C.}
+	\label{fig:virtual_wells}
 \end{figure}
 
-%use 86mm or 178mm
+\clearpage
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figs_paper3/Fig7.pdf}	
+	\caption{Calculated pressure change due to fluid injection and production at three levels of porosity and permeability. (a-c: low porosity/permeability; d-f: medium porosity/permeability; g-i: high porosity and permeability).  a,d and g are calculated pressure buildup due to net CO$_{2}$ injection.  b, e and h are derived from net water injection.  c, f and I are derived from oil and HC gas production}
+	\label{fig:ind_pred_pressure}
+\end{figure}
 
+\clearpage
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figs_paper3/Fig8.pdf}	
+	\caption{Calculated pressure change due to all injection and production activities at three levels of porosity and permeability. a) low porosity/permeability level; b) medium porosity/permeability level; c) high porosity and permeability level.}
+	\label{fig:tot_pred_pressure}
+\end{figure}
 
+\clearpage
+\begin{figure}
+	\centering
+	\includegraphics{figs_paper3/Fig9.eps}	
+	\caption{Goodness of fit versus Young’s modulus at three levels of pressure change conditions.  Simulated LOS displacements are fitted to LOS displacement observation along the profile shown in Figure 1.  Note that the minimum value of Young’s modulus is well constrained, but the upper bound value is not.  }
+	\label{fig:goodness}
+\end{figure}
+
+\clearpage
+\begin{figure}
+	\centering
+	\includegraphics{figs_paper3/Fig10.pdf}	
+	\caption{Simulated LOS displacement at three levels of pressure change conditions versus InSAR observation along the profile shown in Figure 1.}
+	\label{fig:1d_compare}
+\end{figure}
+
+\clearpage
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{figs_paper3/Fig11.pdf}	
+	\caption{Comparison between simulated LOS displacements and InSAR observation for the entire study area.  Surface displacements were derived from high-pressure change condition.  a) Simulated LOS displacements; b) InSAR observation; c) residual.}
+	\label{fig:2d_compare}
+\end{figure}
 % \end{document}

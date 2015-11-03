@@ -1,9 +1,16 @@
-\documentclass[draft,12pt]{report} %use draft mode for rendering tests for formatting but not for the final verson e.g. \documentclass[12pt]
+\documentclass[12pt]{report} %use draft mode for rendering tests for formatting but not for the final verson e.g. \documentclass[12pt]
 
-\usepackage{graphicx} 
+% Figures packages
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\DeclareGraphicsExtensions{.pdf,.gif,.jpg,.eps,.png}
 \usepackage{setspace}
 \usepackage{float} %needed to force figures in certain place
 \usepackage{url}
+
+% Table packages
+\usepackage{booktabs}
+\usepackage[flushleft]{threeparttable}
 
 % %avoid widows and orphans - really important for references
 % \widowpenalty10000
@@ -48,6 +55,7 @@
 % \numberwithin{equation}{section}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{amsmath}
+\usepackage{mathtools}
 \setcounter{secnumdepth}{5} %this allows use of subsubsections
 \setcounter{tocdepth}{5}
 \usepackage{graphicx}
@@ -112,7 +120,19 @@
 }
 \makeatother
 
-%format the list of figures (if you have list of tables, this needs to be repated)
+%format the list of tables 
+\makeatletter
+\def\listoftables{%
+	\newpage
+	\vspace*{.80in}
+	\centerline{\bf List of Tables}
+	\vspace*{2em}
+	\@mkboth{CONTENTS}{CONTENTS}
+	\@starttoc{lot}
+}
+\makeatother
+
+%format the list of figures 
 \makeatletter
 \def\listoffigures{%
  \newpage
@@ -151,6 +171,7 @@
 %\renewcommand{\cftsecnumwidth}{1.9 em}
 \renewcommand{\cftsubsecindent}{1in}
 %\renewcommand{\cftsubsecnumwidth}{2.8 em}	
+\renewcommand{\cfttabfont}{Table }
 \renewcommand{\cftfigfont}{Figure }
 %these should change the table of contents main headings to not be bold
 \renewcommand\cftchapfont{\mdseries}
@@ -160,10 +181,12 @@
 %define page nums to be .25" below text
 \setlength{\footskip}{0.25in}
 
+%this controls vertical spacing, NECESSARY FOR DOUBLE SPACING BETWEEN TITLES
+\setlength{\cftbeforetabskip}{1em}
+
 %this should set indent level for Figure X....(0 inches so that its at left margin)
 \setlength{\cftfigindent}{0in}
 %note that the Figure X and the rest of the text are tied, so the above value should be 0
-
 
 %this controls vertical spacing, NECESSARY FOR DOUBLE SPACING BETWEEN TITLES
 \setlength{\cftbeforefigskip}{1em}
@@ -178,6 +201,13 @@
 \renewcommand{\cftfigpagefont}{}                      
 \renewcommand{\cftfignumwidth}{1in}
 
+%this is needed to keep proper indentation in two-line table label text
+%ALL OF THESE ARE NECESSARY
+\renewcommand{\cfttabfont}{}
+\renewcommand{\cfttabpresnum}{Table }             	
+\renewcommand{\cfttabaftersnum}{}  
+\renewcommand{\cfttabpagefont}{}                      
+\renewcommand{\cfttabnumwidth}{1in}
 
 
 %this may add colon somewhere in the TOC/LOF ???
@@ -237,11 +267,15 @@
 
 
 
+%LOT needs to have singlespacing between lines continued onto a second line. The extra spacing between each figure is forced elsewhere in the preamble.
+\begin{singlespace}
+\cleardoublepage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables
+\end{singlespace}
+
 %LOF needs to have singlespacing between lines continued onto a second line. The extra spacing between each figure is forced elsewhere in the preamble.
 \begin{singlespace}
-% \cleardoublepage
-% \addcontentsline{toc}{chapter}{List of Tables}
-% \listoftables
 \cleardoublepage % Start a new page for the list of figures. Make it right handed for two-sided documents.
 \addcontentsline{toc}{chapter}{List of Figures} % add to table of contents.
 \listoffigures % generate the list of figures
@@ -252,7 +286,7 @@
 \patchcmd{\abstract}{\null\vfil}{\vspace*{37pt}}{}{}
 \begin{abstract}
 \thispagestyle{plain}
-Terrestrial Radar Interferometry (TRI) is a relatively new ground-based technique that combines the precision and spatial resolution of satellite interferometry with the temporal resolution of GPS. Although TRI has been applied to a variety of fields including bridge and landslide monitoring, it is ideal for studies of the highly-dynamic terminal zones of marine-terminating glaciers, some of which are known to have variable velocities related to calving and/or ocean-forced melting. My TRI instrument is the Gamma Portable Radar Interferometer, which operates at 17.2 GHz (1.74 cm wavelength), has two receiving antennas for DEM (digital elevation model) generation, and images the scenes at minute-scale sampling rates.  Most of this TRI work has focused on two glaciers: Breiðamerkurjökull in Iceland and Helheim in Greenland. Monitoring the displacement of stationary points suggests velocity measurement uncertainties related to the instrument and atmosphere of less than 0.05 m/d. I show that the rapid sampling rate of the TRI can be used to observe velocity variations at the glacier terminus and assess the impact and spatial distribution of tidal forcing. Additionally, iceberg tracking in the amplitude imagery may provide insight about ocean currents near the terminus. 
+hjhkhhjkajdl jd jljkjh kjl  
 \setcounter{page}{6} %NEEED TO MANUALLY SET PAGE HERE
 %force abstract in the TOC
 % \clearpage
@@ -265,12 +299,7 @@ Terrestrial Radar Interferometry (TRI) is a relatively new ground-based techniqu
 
 %use the intro paragraph here, must define chapter and label in the other tex file
 %need to remove all of the journal-specific formatting stuff from the tex files in the separate chapter files
-\include{introduction}
-\include{paper1a}
-\include{paper2a}
-\include{paper3a}
-\include{conclusions}
-\include{appendices}
+\input{paper3a}
 
 
 \end{document}

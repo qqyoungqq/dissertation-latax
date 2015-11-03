@@ -1,0 +1,17 @@
+\contentsline {chapter}{List of Tables}{ii}
+\contentsline {chapter}{List of Figures}{iii}
+\contentsline {chapter}{Abstract}{vi}
+\contentsline {chapter}{\numberline {1}InSAR Monitoring of Ground Deformation Due to CO$_{2}$ injection at an Enhanced Oil Recovery Site, West Texas}{1}
+\contentsline {section}{\numberline {1.1}Abstract}{1}
+\contentsline {section}{\numberline {1.2}Introduction}{1}
+\contentsline {section}{\numberline {1.3}Study area description}{3}
+\contentsline {section}{\numberline {1.4}Observed ground deformation}{4}
+\contentsline {section}{\numberline {1.5}Simulation}{5}
+\contentsline {subsection}{\numberline {1.5.1}Analytical solution for ground displacement}{5}
+\contentsline {subsection}{\numberline {1.5.2}Input parameters of the analytical simulations}{8}
+\contentsline {subsection}{\numberline {1.5.3}Injection and production data during 2004 - 2011}{9}
+\contentsline {section}{\numberline {1.6}Simulation results}{10}
+\contentsline {section}{\numberline {1.7}Discussion}{12}
+\contentsline {section}{\numberline {1.8}Conclusions}{13}
+\contentsline {section}{\numberline {1.9}Acknowledgements}{14}
+\contentsline {section}{\numberline {1.10}References}{15}

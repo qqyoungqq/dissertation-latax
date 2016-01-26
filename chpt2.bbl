@@ -1,0 +1,84 @@
+\begin{thebibliography}{}
+
+\bibitem[Bertiger et~al., 2010]{bertiger2010chpt2}
+Bertiger, W., Desai, S.~D., Haines, B., Harvey, N., Moore, A.~W., Owen, S., and
+  Weiss, J.~P. (2010).
+\newblock Single receiver phase ambiguity resolution with gps data.
+\newblock {\em Journal of Geodesy}, 84(5):327--337.
+
+\bibitem[Blewitt, 1989]{blewitt1989chpt2}
+Blewitt, G. (1989).
+\newblock Carrier phase ambiguity resolution for the global positioning system
+  applied to geodetic baselines up to 2000 km.
+\newblock {\em Journal of Geophysical Research}, 94(B8):10187--10203.
+
+\bibitem[Blewitt, 2008]{blewitt2008chpt2}
+Blewitt, G. (2008).
+\newblock Fixed point theorems of gps carrier phase ambiguity resolution and
+  their application to massive network processing: Ambizap.
+\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  113(B12).
+
+\bibitem[Boehm et~al., 2006]{boehm2006chpt2}
+Boehm, J., Werl, B., and Schuh, H. (2006).
+\newblock Troposphere mapping functions for gps and very long baseline
+  interferometry from european centre for medium-range weather forecasts
+  operational analysis data.
+\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  111(B2).
+
+\bibitem[B{\"o}hm et~al., 2006]{bohm2006chpt2}
+B{\"o}hm, J., Niell, A., Tregoning, P., and Schuh, H. (2006).
+\newblock Global mapping function (gmf): A new empirical mapping function based
+  on numerical weather model data.
+\newblock {\em Geophysical Research Letters}, 33(7).
+
+\bibitem[Dixon, 1991]{dixon1991chpt2}
+Dixon, T.~H. (1991).
+\newblock An introduction to the global positioning system and some geological
+  applications.
+\newblock {\em Reviews of Geophysics}, 29(2):249--276.
+
+\bibitem[Hofmann et~al., 2001]{hofmann2001gps}
+Hofmann, B., Lichtenegger, H., and Collins, J. (2001).
+\newblock Gps theory and practice.
+\newblock {\em Wien: Springer-Verlag}, 5.
+
+\bibitem[Lichten and Border, 1987]{lichten1987strategies}
+Lichten, S.~M. and Border, J.~S. (1987).
+\newblock Strategies for high-precision global positioning system orbit
+  determination.
+\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  92(B12):12751--12762.
+
+\bibitem[Mao et~al., 1999]{mao1999noise}
+Mao, A., Harrison, C.~G., and Dixon, T.~H. (1999).
+\newblock Noise in gps coordinate time series.
+\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  104(B2):2797--2816.
+
+\bibitem[Niell, 1996]{niell1996chpt2}
+Niell, A. (1996).
+\newblock Global mapping functions for the atmosphere delay at radio
+  wavelengths.
+\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  101(B2):3227--3246.
+
+\bibitem[Remondi, 1985]{remondi1985global}
+Remondi, B.~W. (1985).
+\newblock Global positioning system carrier phase: description and use.
+\newblock {\em Bulletin g{\'e}od{\'e}sique}, 59(4):361--377.
+
+\bibitem[Schmid et~al., 2007]{schmid2007intro}
+Schmid, R., Steigenberger, P., Gendt, G., Ge, M., and Rothacher, M. (2007).
+\newblock Generation of a consistent absolute phase-center correction model for
+  gps receiver and satellite antennas.
+\newblock {\em Journal of Geodesy}, 81(12):781--798.
+
+\bibitem[Sella et~al., 2002]{sella2002chpt2}
+Sella, G.~F., Dixon, T.~H., and Mao, A. (2002).
+\newblock Revel: A model for recent plate velocities from space geodesy.
+\newblock {\em Journal of Geophysical Research: Solid Earth (1978--2012)},
+  107(B4):ETG--11.
+
+\end{thebibliography}

@@ -1,4 +1,4 @@
-\documentclass[12pt]{report} %use draft mode for rendering tests for formatting but not for the final verson e.g. \documentclass[12pt]
+\documentclass[a4paper,12pt]{report} %use draft mode for rendering tests for formatting but not for the final verson e.g. \documentclass[12pt]
 
 % Figures packages
 \usepackage{graphicx}
@@ -8,17 +8,20 @@
 \usepackage{float} %needed to force figures in certain place
 \usepackage{url}
 
+% Multi bibliographies
+%\usepackage{chapterbib}
+
 % Table packages
 \usepackage{booktabs}
 \usepackage[flushleft]{threeparttable}
+\usepackage{adjustbox}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{longtable}
+\usepackage{threeparttablex}
+\usepackage{rotating}
 
 % %avoid widows and orphans - really important for references
-% \widowpenalty10000
-% \clubpenalty10000
 \usepackage[all]{nowidow}
-
-
-
 
 %needed for continuous footnote numbering (requires d/l of chngcntr.sty)
 \usepackage{chngcntr}
@@ -33,8 +36,7 @@
 \usepackage{natbib}
 \usepackage{chapterbib}
 
-
-%this makes references be a section style rather than chapter stile
+%this makes references be a section style rather than chapter style
 %still need to manually add it to TOC in the paper tex file and change the name to REFERNCES
 \makeatletter
 \renewcommand\bibsection%
@@ -47,14 +49,11 @@
 %which automatically adds it to TOC. Needs the above code to treat refs section as section and not chapter
 \renewcommand{\bibsection}{}
 
-
-
-
 %\usepackage{url}
 \doublespacing
-% \numberwithin{equation}{section}
 \usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
 \usepackage{amsmath}
+\newcommand{\V}[1]{\textup{#1}}
 \usepackage{mathtools}
 \setcounter{secnumdepth}{5} %this allows use of subsubsections
 \setcounter{tocdepth}{5}
@@ -64,9 +63,6 @@
 \usepackage{lmodern} %this is needed with T1
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
-
-%\renewcommand{\chaptername}{}
-%\renewcommand{\thechapter}{}
 
 %perform USF style heading formats
 %\newcommand{\cchapter}[1]{\chapter[#1]{\centering #1}}
@@ -79,13 +75,6 @@
 \usepackage{alltt}
 %TOC INDENTATION
 \usepackage[titles]{tocloft}
-
-
-
-
-%control chapter heading PROBABLY NOT NEEEDD
-% \titleformat{\chapter}[display]
-% 	{\normalfont\Luge\bfseries\centering}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 
 %next three blocks control heading indents	
 \titlespacing{\chapter}{0em}{.68in}{2em}
@@ -100,14 +89,6 @@
 \titleformat{\subsection}
   {\normalfont\bfseries}{\thesubsection }{1em}{}
   
-
-%disable section and subsection numbering
-%\setcounter{secnumdepth}{0} 
-
-%suppress chapter numbering
-%\renewcommand{\thechapter}{}
-
-
 %format the table of contents
 \makeatletter
 \def\tableofcontents{%
@@ -144,12 +125,8 @@
 }
 \makeatother
 
-
-
-
 %get rid of leader dots in TOC and LOF
 \renewcommand{\cftdot}{}
-
 
 %this part of the code ensures that there is a period after the number, e.g. 1. CHAPTERNAME
 \makeatletter
@@ -209,12 +186,6 @@
 \renewcommand{\cfttabpagefont}{}                      
 \renewcommand{\cfttabnumwidth}{1in}
 
-
-%this may add colon somewhere in the TOC/LOF ???
-% \renewcommand{\cftXaftersnum}{:}
-% 
-
-
 %this will redefine the width of the pagenumbering on the TOC/LOF (3 font units (e.g. for pages containing three characters like 113)
 \makeatletter\renewcommand{\@pnumwidth}{3em}\makeatother
 
@@ -252,7 +223,9 @@
 %TITLE PAGE FILE GOES HERE
 \input{./titlepage.tex}
 
-
+%ACKNOWLEDGE PAGE FILE GOES HERE
+\include{./dedication}
+\include{./acknowledgment}
 \pagenumbering{roman}
 \begin{singlespace}
 %\vspace*{1in}
@@ -286,7 +259,7 @@
 \patchcmd{\abstract}{\null\vfil}{\vspace*{37pt}}{}{}
 \begin{abstract}
 \thispagestyle{plain}
-hjhkhhjkajdl jd jljkjh kjl  
+Space geodesy plays an important role for earth observation and it provides numerous applications in different scientific disciplines.  The dissertation presents three applications of space geodesy in the field of climate change.  In this dissertation, three space geodesy techniques are used: high-precision Global Positioning System (GPS), the Gravity Recovery and Climate Experiment (GRACE) and Interferometric Synthetic Aperture Radar (InSAR).  The following are brief introductions of these three works.  In the first work, I use the coastal uplift observed by GPS to study the annual variability of mass loss of the Greenland ice sheet.  Our data show both spatial and temporal variations of coastal ice mass loss and suggest that a combination of warm atmospheric and oceanic condition drove these variations.  In the second work, I use GRACE monthly product and the regional atmospheric climate model RACMO2.3 to estimate recent freshwater flux from Greenland and the Canadian Arctic Archipelago.  Our data show that Arctic freshwater flux started to increase rapidly since the mid-late 1990s, coincident with the decrease of Labrador Sea Water formation, a key component of the deep southward return flow of the Atlantic Meridional Overturning Circulation.   This work suggest that recent freshening of the high-latitude region weaken the formation of Larbador Sea Water and hence possibly weaken the Atlantic Meridional Overturning Circulation.  In the third work, I use InSAR to monitor ground deformation caused by CO$_{2}$ injection at an enhanced oil recovery site in west Texas.  Carbon capture, utilization and storage can greatly reduced CO$_{2}$ emitted from power plants, which is a promising way to mitigate anthropogenic warming. From 2007 to 2011, $\sim$24 million tons of CO$_{2}$  have been sequestered in the field, causing up to 10 MPa pressure buildup at reservoir depth and surface uplift up to 10 cm. Our work suggest that surface displacement observed by space geodesy technique is a good indicator of reservoir pressure change and continuous monitoring surface displacement at enhanced oil recovery sites helps to assess risks associated with CO$_{2}$ injection.    
 \setcounter{page}{6} %NEEED TO MANUALLY SET PAGE HERE
 %force abstract in the TOC
 % \clearpage
@@ -299,7 +272,13 @@ hjhkhhjkajdl jd jljkjh kjl
 
 %use the intro paragraph here, must define chapter and label in the other tex file
 %need to remove all of the journal-specific formatting stuff from the tex files in the separate chapter files
-\input{paper3a}
-
+%\input{chpt3}
+%\input{chpt5}
+\include{intro}
+\include{chpt2}
+\include{chpt3}
+\include{chpt4}
+\include{chpt5}
+\include{appen}
 
 \end{document}

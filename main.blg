@@ -1,50 +1,310 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
+A level-1 auxiliary file: ./dedication.aux
+A level-1 auxiliary file: ./acknowledgment.aux
+A level-1 auxiliary file: intro.aux
 The style file: apalike.bst
-Database file #1: refsnew_firstname.bib
-Warning--empty journal in galloway1983atlas
-Warning--empty journal in metz2005carbon
-Warning--empty journal in vest1970oil
-You've used 33 entries,
+A level-1 auxiliary file: chpt2.aux
+Illegal, another \bibstyle command---line 18 of file chpt2.aux
+ : \bibstyle
+ :          {apalike}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 19 of file chpt2.aux
+ : \bibdata
+ :         {chpt2_ref}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: chpt3.aux
+Illegal, another \bibstyle command---line 81 of file chpt3.aux
+ : \bibstyle
+ :          {apalike}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 82 of file chpt3.aux
+ : \bibdata
+ :         {chpt3_ref}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: chpt4.aux
+Illegal, another \bibstyle command---line 79 of file chpt4.aux
+ : \bibstyle
+ :          {apalike}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 80 of file chpt4.aux
+ : \bibdata
+ :         {chpt4_ref}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: chpt5.aux
+Illegal, another \bibstyle command---line 63 of file chpt5.aux
+ : \bibstyle
+ :          {apalike}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 64 of file chpt5.aux
+ : \bibdata
+ :         {chpt5_ref}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: appen.aux
+Illegal, another \bibdata command---line 55 of file appen.aux
+ : \bibdata
+ :         {app_ref}
+I'm skipping whatever remains of this command
+Illegal, another \bibstyle command---line 103 of file appen.aux
+ : \bibstyle
+ :          {apalike}
+I'm skipping whatever remains of this command
+Reallocated field_info (elt_size=4) to 10456 items from 5000.
+Database file #1: intro_ref.bib
+Warning--I didn't find a database entry for "dixon1991chpt2"
+Warning--I didn't find a database entry for "mao1999noise"
+Warning--I didn't find a database entry for "hofmann2001gps"
+Warning--I didn't find a database entry for "remondi1985global"
+Warning--I didn't find a database entry for "lichten1987strategies"
+Warning--I didn't find a database entry for "blewitt1989chpt2"
+Warning--I didn't find a database entry for "blewitt2008chpt2"
+Warning--I didn't find a database entry for "bertiger2010chpt2"
+Warning--I didn't find a database entry for "niell1996chpt2"
+Warning--I didn't find a database entry for "bohm2006chpt2"
+Warning--I didn't find a database entry for "boehm2006chpt2"
+Warning--I didn't find a database entry for "sella2002chpt2"
+Warning--I didn't find a database entry for "schmid2007intro"
+Warning--I didn't find a database entry for "velicogna2006acceleration"
+Warning--I didn't find a database entry for "velicogna2009increasing"
+Warning--I didn't find a database entry for "chen2006satellite"
+Warning--I didn't find a database entry for "luthcke2006recent"
+Warning--I didn't find a database entry for "van2009partitioning"
+Warning--I didn't find a database entry for "jacob2012recent"
+Warning--I didn't find a database entry for "krabill2004greenland"
+Warning--I didn't find a database entry for "zwally2005mass"
+Warning--I didn't find a database entry for "thomas2006progressive"
+Warning--I didn't find a database entry for "hanna2005runoff"
+Warning--I didn't find a database entry for "rignot2006changes"
+Warning--I didn't find a database entry for "rignot2008mass"
+Warning--I didn't find a database entry for "jiang2010accelerating"
+Warning--I didn't find a database entry for "khan2010spread"
+Warning--I didn't find a database entry for "bevis2012bedrock"
+Warning--I didn't find a database entry for "murray2010ocean"
+Warning--I didn't find a database entry for "chen2011interannual"
+Warning--I didn't find a database entry for "box2010greenland"
+Warning--I didn't find a database entry for "wouters2008grace"
+Warning--I didn't find a database entry for "zwally2002surface"
+Warning--I didn't find a database entry for "hall2008greenland"
+Warning--I didn't find a database entry for "van2008large"
+Warning--I didn't find a database entry for "holland2008acceleration"
+Warning--I didn't find a database entry for "hanna2009hydrologic"
+Warning--I didn't find a database entry for "straneo2010rapid"
+Warning--I didn't find a database entry for "straneo2012characteristics"
+Warning--I didn't find a database entry for "seale2011ocean"
+Warning--I didn't find a database entry for "zumberge1997precise"
+Warning--I didn't find a database entry for "bohm2006global"
+Warning--I didn't find a database entry for "letellier2005etude"
+Warning--I didn't find a database entry for "blewitt2008fixed"
+Warning--I didn't find a database entry for "altamimi2007itrf2005"
+Warning--I didn't find a database entry for "petrov2004study"
+Warning--I didn't find a database entry for "murray2005spatiotemporal"
+Warning--I didn't find a database entry for "davis2006subcontinental"
+Warning--I didn't find a database entry for "bennett2008instantaneous"
+Warning--I didn't find a database entry for "davis2012seasonal"
+Warning--I didn't find a database entry for "carstensen2011weather"
+Warning--I didn't find a database entry for "ettema2009higher"
+Warning--I didn't find a database entry for "ettema2010climateA"
+Warning--I didn't find a database entry for "ettema2010climateB"
+Warning--I didn't find a database entry for "kuipers2011new"
+Warning--I didn't find a database entry for "van2012sensitivity"
+Warning--I didn't find a database entry for "ingleby2007quality"
+Warning--I didn't find a database entry for "schrama2011revisiting"
+Warning--I didn't find a database entry for "motyka2003submarine"
+Warning--I didn't find a database entry for "payne2004recent"
+Warning--I didn't find a database entry for "shepherd2004warm"
+Warning--I didn't find a database entry for "myers2007irminger"
+Warning--I didn't find a database entry for "joughin2012ice"
+Warning--I didn't find a database entry for "amundson2010ice"
+Warning--I didn't find a database entry for "motyka2011submarine"
+Warning--I didn't find a database entry for "pritchard2009extensive"
+Warning--I didn't find a database entry for "huybrechts1999dynamic"
+Warning--I didn't find a database entry for "tedesco2011role"
+Warning--I didn't find a database entry for "walker1981negative"
+Warning--I didn't find a database entry for "douglass2005climate"
+Warning--I didn't find a database entry for "koren2011aerosol"
+Warning--I didn't find a database entry for "stommel1961"
+Warning--I didn't find a database entry for "rooth1982"
+Warning--I didn't find a database entry for "broecker1985"
+Warning--I didn't find a database entry for "broecker1987"
+Warning--I didn't find a database entry for "wood1999"
+Warning--I didn't find a database entry for "jiang2010"
+Warning--I didn't find a database entry for "rignot2011"
+Warning--I didn't find a database entry for "enderlin2014"
+Warning--I didn't find a database entry for "velicogna2014regional"
+Warning--I didn't find a database entry for "yang2013"
+Warning--I didn't find a database entry for "fichefet2003"
+Warning--I didn't find a database entry for "jungclaus2006"
+Warning--I didn't find a database entry for "stouffer2006"
+Warning--I didn't find a database entry for "hu2011"
+Warning--I didn't find a database entry for "swingedow2013"
+Warning--I didn't find a database entry for "ridley2005"
+Warning--I didn't find a database entry for "brunnabend2015"
+Warning--I didn't find a database entry for "rahmstorf1995"
+Warning--I didn't find a database entry for "rahmstorf2005"
+Warning--I didn't find a database entry for "hawkins2011"
+Warning--I didn't find a database entry for "yashayaev2009"
+Warning--I didn't find a database entry for "kuhlbrodt2001"
+Warning--I didn't find a database entry for "joyce2007"
+Warning--I didn't find a database entry for "bonin2013"
+Warning--I didn't find a database entry for "howat2011"
+Warning--I didn't find a database entry for "box2013"
+Warning--I didn't find a database entry for "myers2007b"
+Warning--I didn't find a database entry for "thierry2008"
+Warning--I didn't find a database entry for "holland2008"
+Warning--I didn't find a database entry for "joughin2012"
+Warning--I didn't find a database entry for "straneo2013"
+Warning--I didn't find a database entry for "jakobsen2003"
+Warning--I didn't find a database entry for "myers2009"
+Warning--I didn't find a database entry for "myers2007a"
+Warning--I didn't find a database entry for "josey2005"
+Warning--I didn't find a database entry for "peterson2002"
+Warning--I didn't find a database entry for "haine2015"
+Warning--I didn't find a database entry for "castro2015"
+Warning--I didn't find a database entry for "curry2014"
+Warning--I didn't find a database entry for "bamber2012"
+Warning--I didn't find a database entry for "lenaerts2013"
+Warning--I didn't find a database entry for "ettema2009"
+Warning--I didn't find a database entry for "noel2015"
+Warning--I didn't find a database entry for "gardner2011"
+Warning--I didn't find a database entry for "zhang2003"
+Warning--I didn't find a database entry for "fetterer2002"
+Warning--I didn't find a database entry for "laxon2003"
+Warning--I didn't find a database entry for "myers2005"
+Warning--I didn't find a database entry for "mcgeehan2012"
+Warning--I didn't find a database entry for "koenigk2006"
+Warning--I didn't find a database entry for "peterson2006"
+Warning--I didn't find a database entry for "good2013"
+Warning--I didn't find a database entry for "rignot2006"
+Warning--I didn't find a database entry for "rhein2011"
+Warning--I didn't find a database entry for "kieke2015"
+Warning--I didn't find a database entry for "yashayaev2015"
+Warning--I didn't find a database entry for "lazier2002"
+Warning--I didn't find a database entry for "vage2009"
+Warning--I didn't find a database entry for "swingedouw2015"
+Warning--I didn't find a database entry for "weijer2012"
+Warning--I didn't find a database entry for "mcgeehan2011"
+Warning--I didn't find a database entry for "robson2013"
+Warning--I didn't find a database entry for "smeed2014"
+Warning--I didn't find a database entry for "rahmstorf2015"
+Warning--I didn't find a database entry for "vasco2008reservoir"
+Warning--I didn't find a database entry for "vasco2010satellite"
+Warning--I didn't find a database entry for "rinaldi2013modeling"
+Warning--I didn't find a database entry for "white2014geomechanical"
+Warning--I didn't find a database entry for "karegar2015gps"
+Warning--I didn't find a database entry for "orr1984use"
+Warning--I didn't find a database entry for "bryant2007geologic"
+Warning--I didn't find a database entry for "metz2005carbon"
+Warning--I didn't find a database entry for "mathias2009approximate"
+Warning--I didn't find a database entry for "morris2011study"
+Warning--I didn't find a database entry for "shi2012assessment"
+Warning--I didn't find a database entry for "verdon2013comparison"
+Warning--I didn't find a database entry for "galloway1983atlas"
+Warning--I didn't find a database entry for "vest1970oil"
+Warning--I didn't find a database entry for "raines2001review"
+Warning--I didn't find a database entry for "raines66"
+Warning--I didn't find a database entry for "dicharry1973evaluation"
+Warning--I didn't find a database entry for "brummett1976reservoir"
+Warning--I didn't find a database entry for "crameik1972carbon"
+Warning--I didn't find a database entry for "berardino2002new"
+Warning--I didn't find a database entry for "pepe2006extension"
+Warning--I didn't find a database entry for "reuter2007evaluation"
+Warning--I didn't find a database entry for "mathias2009screening"
+Warning--I didn't find a database entry for "theis1935relation"
+Warning--I didn't find a database entry for "xu2012fluid"
+Warning--I didn't find a database entry for "]"
+Warning--I didn't find a database entry for "han2010evaluation"
+Warning--I didn't find a database entry for "lucia2004permeability"
+Warning--I didn't find a database entry for "newman1973pore"
+Warning--I didn't find a database entry for "satter2008practical"
+Warning--I didn't find a database entry for "bevis2005seasonal"
+Warning--I didn't find a database entry for "rohmer2012applicability"
+Warning--I didn't find a database entry for "gan2013gas"
+Warning--I didn't find a database entry for "reid1991cogdell"
+Warning--I didn't find a database entry for "magie1969source"
+Warning--I didn't find a database entry for "darwin1882xlvi"
+Warning--I didn't find a database entry for "vandam1994atmospheric"
+Warning--I didn't find a database entry for "dong2002anatomy"
+Warning--I didn't find a database entry for "farrell1972deformation"
+Warning--I didn't find a database entry for "kalnay1996ncep"
+Warning--I didn't find a database entry for "carstensen2011app"
+Warning--I didn't find a database entry for "bamber2012recent"
+Warning--I didn't find a database entry for "gardner2011sharply"
+Warning--I didn't find a database entry for "haine2015arctic"
+Warning--I didn't find a database entry for "aagaard1989role"
+Warning--I didn't find a database entry for "vavrus2012twenty"
+Warning--I didn't find a database entry for "proshutinsky2015arctic"
+Warning--I didn't find a database entry for "zhang2003modeling"
+Warning--I didn't find a database entry for "fetterer2002app"
+Warning--I didn't find a database entry for "cavalieri200330"
+Warning--I didn't find a database entry for "kwok2009thinning"
+Warning--I didn't find a database entry for "maslowski2012future"
+Warning--I didn't find a database entry for "comiso2008accelerated"
+Warning--I didn't find a database entry for "durbin2012time"
+Warning--I didn't find a database entry for "laine2014analysing"
+Warning--I didn't find a database entry for "peterson2006trajectory"
+Warning--I didn't find a database entry for "bacon2015arctic"
+Warning--I didn't find a database entry for "dickson2007current"
+Warning--I didn't find a database entry for "vaage2013revised"
+Warning--I didn't find a database entry for "sutherland2008east"
+Warning--I didn't find a database entry for "myers2007interdecadal"
+Warning--I didn't find a database entry for "myers2009structure"
+Warning--I didn't find a database entry for "rykova2015seasonal"
+Warning--I didn't find a database entry for "kawasaki2014effect"
+Warning--I didn't find a database entry for "saenko2014role"
+Warning--I didn't find a database entry for "curry2011volume"
+Warning--I didn't find a database entry for "curry2014multiyear"
+Warning--I didn't find a database entry for "straneo2008outflow"
+Warning--I didn't find a database entry for "st2011fate"
+Warning--I didn't find a database entry for "myers2005impact"
+Warning--I didn't find a database entry for "schmidt2007origin"
+Warning--I didn't find a database entry for "mcgeehan2011impact"
+Warning--I didn't find a database entry for "loder1998coastal"
+Warning--I didn't find a database entry for "fratantoni2007western"
+Warning--I didn't find a database entry for "fratantoni2010freshwater"
+Warning--I didn't find a database entry for "box2013greenland"
+Warning--I didn't find a database entry for "enderlin2014improved"
+Warning--I didn't find a database entry for "good2013en4"
+Warning--I didn't find a database entry for "lenaerts2013irreversible"
+You've used 34 entries,
             1935 wiz_defined-function locations,
-            681 strings with 10639 characters,
-and the built_in function-call counts, 14251 in all, are:
-= -- 1388
-> -- 676
-< -- 16
-+ -- 247
-- -- 232
-* -- 1282
-:= -- 2484
-add.period$ -- 97
-call.type$ -- 33
-change.case$ -- 273
-chr.to.int$ -- 32
-cite$ -- 36
-duplicate$ -- 482
-empty$ -- 936
-format.name$ -- 283
-if$ -- 2732
-int.to.chr$ -- 2
+            915 strings with 14849 characters,
+and the built_in function-call counts, 16514 in all, are:
+= -- 1549
+> -- 994
+< -- 9
++ -- 362
+- -- 358
+* -- 1629
+:= -- 2933
+add.period$ -- 102
+call.type$ -- 34
+change.case$ -- 346
+chr.to.int$ -- 34
+cite$ -- 34
+duplicate$ -- 470
+empty$ -- 970
+format.name$ -- 404
+if$ -- 3083
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 35
-newline$ -- 165
-num.names$ -- 99
-pop$ -- 230
+missing$ -- 34
+newline$ -- 173
+num.names$ -- 102
+pop$ -- 269
 preamble$ -- 1
-purify$ -- 275
+purify$ -- 346
 quote$ -- 0
-skip$ -- 374
+skip$ -- 359
 stack$ -- 0
-substring$ -- 1052
-swap$ -- 51
-text.length$ -- 3
+substring$ -- 1115
+swap$ -- 34
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 194
-warning$ -- 3
-while$ -- 118
+type$ -- 204
+warning$ -- 0
+while$ -- 121
 width$ -- 0
-write$ -- 420
-(There were 3 warnings)
+write$ -- 444
+(There were 10 error messages)

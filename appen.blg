@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: appen.aux
+The style file: apalike.bst
+Database file #1: app_ref.bib
+Warning--there's a number but no series in durbin2012time
+Warning--empty journal in fetterer2002app
+Warning--empty journal in magie1969source
+You've used 46 entries,
+            1935 wiz_defined-function locations,
+            752 strings with 12523 characters,
+and the built_in function-call counts, 21533 in all, are:
+= -- 2123
+> -- 1024
+< -- 19
++ -- 374
+- -- 356
+* -- 1983
+:= -- 3666
+add.period$ -- 138
+call.type$ -- 46
+change.case$ -- 406
+chr.to.int$ -- 46
+cite$ -- 49
+duplicate$ -- 703
+empty$ -- 1394
+format.name$ -- 428
+if$ -- 4161
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 46
+newline$ -- 232
+num.names$ -- 138
+pop$ -- 310
+preamble$ -- 1
+purify$ -- 406
+quote$ -- 0
+skip$ -- 583
+stack$ -- 0
+substring$ -- 1748
+swap$ -- 113
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 274
+warning$ -- 3
+while$ -- 164
+width$ -- 0
+write$ -- 596
+(There were 3 warnings)

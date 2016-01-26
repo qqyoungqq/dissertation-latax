@@ -1,17 +1,88 @@
-\contentsline {chapter}{List of Tables}{ii}
-\contentsline {chapter}{List of Figures}{iii}
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\contentsline {chapter}{List of Tables}{iii}
+\contentsline {chapter}{List of Figures}{iv}
 \contentsline {chapter}{Abstract}{vi}
-\contentsline {chapter}{\numberline {1}InSAR Monitoring of Ground Deformation Due to CO$_{2}$ injection at an Enhanced Oil Recovery Site, West Texas}{1}
-\contentsline {section}{\numberline {1.1}Abstract}{1}
-\contentsline {section}{\numberline {1.2}Introduction}{1}
-\contentsline {section}{\numberline {1.3}Study area description}{3}
-\contentsline {section}{\numberline {1.4}Observed ground deformation}{4}
-\contentsline {section}{\numberline {1.5}Simulation}{5}
-\contentsline {subsection}{\numberline {1.5.1}Analytical solution for ground displacement}{5}
-\contentsline {subsection}{\numberline {1.5.2}Input parameters of the analytical simulations}{8}
-\contentsline {subsection}{\numberline {1.5.3}Injection and production data during 2004 - 2011}{9}
-\contentsline {section}{\numberline {1.6}Simulation results}{10}
-\contentsline {section}{\numberline {1.7}Discussion}{12}
-\contentsline {section}{\numberline {1.8}Conclusions}{13}
-\contentsline {section}{\numberline {1.9}Acknowledgements}{14}
-\contentsline {section}{\numberline {1.10}References}{15}
+\gdef \the@ipfilectr {@-3}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {1.1}Overview}{1}
+\contentsline {section}{\numberline {1.2}References}{4}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {2}Technical Background}{9}
+\contentsline {section}{\numberline {2.1}Global Positioning System}{9}
+\contentsline {subsection}{\numberline {2.1.1}Struture}{9}
+\contentsline {subsection}{\numberline {2.1.2}GPS signal}{9}
+\contentsline {subsection}{\numberline {2.1.3}GPS basic observations}{10}
+\contentsline {subsection}{\numberline {2.1.4}GPS error sources}{10}
+\contentsline {section}{\numberline {2.2}Interferometric Synthetic Aperture Radar}{12}
+\contentsline {section}{\numberline {2.3}Gravity Recovery and Climate Experiment}{12}
+\contentsline {section}{\numberline {2.4}References}{12}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {3}Annual Variation of Coastal Uplift in Greenland as an Indicator of Variable and Accelerating Ice Mass Loss}{14}
+\contentsline {section}{\numberline {3.1}Abstract}{14}
+\contentsline {section}{\numberline {3.2}Introduction}{14}
+\contentsline {section}{\numberline {3.3}Methods}{16}
+\contentsline {subsection}{\numberline {3.3.1}GPS Data and Processing}{16}
+\contentsline {subsection}{\numberline {3.3.2}Seasonal Uplift Analysis}{17}
+\contentsline {subsection}{\numberline {3.3.3}Surface Air Temperature Data and Analysis}{18}
+\contentsline {subsection}{\numberline {3.3.4}SMB}{19}
+\contentsline {subsection}{\numberline {3.3.5}Sub-surface Ocean Temperature Data and Analysis}{19}
+\contentsline {section}{\numberline {3.4}Results}{20}
+\contentsline {subsection}{\numberline {3.4.1}Seasonal Uplift/Subsidence Pattern}{20}
+\contentsline {subsection}{\numberline {3.4.2}Air Temperature Analysis}{22}
+\contentsline {subsection}{\numberline {3.4.3}Comparison to SMB}{22}
+\contentsline {subsection}{\numberline {3.4.4}Sub-surface Ocean Temperature Analysis}{23}
+\contentsline {subsection}{\numberline {3.4.5}Correlation Analysis}{23}
+\contentsline {subsubsection}{\numberline {3.4.5.1}Uplift and Atmospheric Factors}{24}
+\contentsline {subsubsection}{\numberline {3.4.5.2}Uplift and Ocean Warming}{24}
+\contentsline {subsection}{\numberline {3.4.6}Uplift Acceleration}{25}
+\contentsline {subsection}{\numberline {3.4.7}Comparison to GRACE}{26}
+\contentsline {section}{\numberline {3.5}Discussion}{27}
+\contentsline {section}{\numberline {3.6}Conclusions}{30}
+\contentsline {section}{\numberline {3.7}Acknowledgements}{31}
+\contentsline {section}{\numberline {3.8}References}{32}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {4}Recent increases in Arctic freshwater flux affects Labrador Sea convection and Atlantic overturning circulation}{59}
+\contentsline {section}{\numberline {4.1}Abstract}{59}
+\contentsline {section}{\numberline {4.2}Introduction}{59}
+\contentsline {section}{\numberline {4.3}Results}{61}
+\contentsline {subsection}{\numberline {4.3.1}Recent accelerated melting of the Greenland ice sheet}{61}
+\contentsline {subsection}{\numberline {4.3.2}Irminger Water heat and salt fluxes}{61}
+\contentsline {subsection}{\numberline {4.3.3}Estimates of freshwater flux into the Labrador Sea}{62}
+\contentsline {subsection}{\numberline {4.3.4}Impact of increased freshwater flux on deep water formation}{66}
+\contentsline {section}{\numberline {4.4}Discussion}{67}
+\contentsline {section}{\numberline {4.5}Methods}{69}
+\contentsline {subsection}{\numberline {4.5.1}GRACE data}{69}
+\contentsline {subsection}{\numberline {4.5.2}Irminger Water heat and salt flux analysis}{70}
+\contentsline {subsection}{\numberline {4.5.3}Freshwater flux}{71}
+\contentsline {section}{\numberline {4.6}Acknowledgements}{72}
+\contentsline {section}{\numberline {4.7}References}{73}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {5}InSAR Monitoring of Ground Deformation Due to CO$_{2}$ injection at an Enhanced Oil Recovery Site, West Texas}{86}
+\contentsline {section}{\numberline {5.1}Abstract}{86}
+\contentsline {section}{\numberline {5.2}Introduction}{86}
+\contentsline {section}{\numberline {5.3}Study area description}{88}
+\contentsline {section}{\numberline {5.4}Observed ground deformation}{89}
+\contentsline {section}{\numberline {5.5}Simulation}{90}
+\contentsline {subsection}{\numberline {5.5.1}Analytical solution for ground displacement}{90}
+\contentsline {subsection}{\numberline {5.5.2}Input parameters of the analytical simulations}{93}
+\contentsline {subsection}{\numberline {5.5.3}Injection and production data during 2004 - 2011}{94}
+\contentsline {section}{\numberline {5.6}Simulation results}{95}
+\contentsline {section}{\numberline {5.7}Discussion}{97}
+\contentsline {section}{\numberline {5.8}Conclusions}{98}
+\contentsline {section}{\numberline {5.9}Acknowledgements}{99}
+\contentsline {section}{\numberline {5.10}References}{100}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-8}
+\contentsline {chapter}{Appendices}{119}
+\contentsline {section}{Appendix A: Supplementary Information for Chapter 3}{120}
+\contentsline {section}{Appendix B: Supplementary Information for Chapter 4}{123}
+\contentsline {section}{Appendix C: Copyright permission}{131}
+\contentsline {section}{Appendix D: References}{132}
+\gdef \the@ipfilectr {}

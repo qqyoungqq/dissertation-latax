@@ -11,8 +11,8 @@
 
 
 \newpage
-\section*{Appendix A: Supplementary Information for Chapter 3}
-\addcontentsline{toc}{section}{Appendix A: Supplementary Information for Chapter 3}
+\section*{Appendix A: Supplementary information for Chapter 3}
+\addcontentsline{toc}{section}{Appendix A: Supplementary information for Chapter 3}
 \subsection*{Atmospheric loading correction}
 Variable atmospheric pressure can cause cm-scale crustal deformation \cite[]{magie1969source,darwin1882xlvi,petrov2004study} and has been detected in GPS time series \cite[]{vandam1994atmospheric,dong2002anatomy}.  Atmospheric contributions therefore need to be removed from the GPS time series in order to isolate the ice load effects.  To correct for air pressure loading, we use pre-computed Atmospheric Loading Displacements (ALD) provided by the Atmospheric Pressure Loading Service (http://gemini.gsfc.nasa.gov/aplo/).  This provides a global 3-D ALD model on a 2.5 $\times$ 2.5 degree grid for routine reduction of geodetic data.  The procedure for computing ALD is described by \citet{petrov2004study}.  Briefly, ALD is calculated by convolving Farrell’s elastic Green’s functions \cite[]{farrell1972deformation} with modeled global pressure data (2.5 $\times$ 2.5 degree grid), obtained by subtracting the mean surface pressure field over a baseline period (1980 to 2002) from the NCEP Reanalysis pressure field \cite[]{kalnay1996ncep}.  ALD can thus be considered a deviation from an average position. Accuracy of the ALD model is validated by comparing with VLBI observations, and the uncertainty of this model is considered to be better than 15\%.  However, there is no VLBI in Greenland so the model uncertainty in Greenland could be larger.
 
@@ -61,8 +61,8 @@ where $\sigma$ is the normal stress due to snow load (100 mm water = 100 Pa), $l
 Uncertainties for the various parameter estimates were determined with a Monte Carlo simulation, as follows. Random noise was added to the GPS daily solutions, scaled by the daily uncertainties.  This creates a new time series, from which the five seasonal uplift variables were re-estimated using the spline technique.  The process is repeated 10,000 times, producing 10,000 estimates for each parameter, for each GPS site.  A histogram of these values in shown in Figure \ref{fig:SI3_fig4}, for an example time series (SENU).   The distribution is approximately Gaussian, and the range of values that contains 68\% of the values is used to define the one sigma confidence level, also shown in Figure \ref{fig:SI3_fig4}.  The uncertainty analysis shows that the spline fit, which is sensitive to seasonal variations in the time series, is not sensitive to random daily position changes in the time series. As a results, the estimated uncertainties of the five seasonal parameters are small.
 
 \newpage
-\section*{Appendix B: Supplementary Information for Chapter 4}
-\addcontentsline{toc}{section}{Appendix B: Supplementary Information for Chapter 4}
+\section*{Appendix B: Supplementary information for Chapter 4}
+\addcontentsline{toc}{section}{Appendix B: Supplementary information for Chapter 4}
 \subsection*{Note 1: Additional information on Figure \ref{fig:chpt4_fig4}}
 Figure \ref{fig:chpt4_fig4} shows the sum of freshwater flux from Greenland, the Canadian Arctic Archipelago and Arctic sea ice. Grey shading in Figure \ref{fig:chpt4_fig4} indicates propagated uncertainty.  It is computed by taking the quadratic sum of the uncertainty associated with each freshwater flux estimate (Figures \ref{fig:SI4_fig3},\ref{fig:SI4_fig6},\ref{fig:SI4_fig12}), and then taking the square root of the sum.
 
@@ -155,12 +155,10 @@ Since most of the 137 mSv of freshwater flux passing through Denmark Strait \cit
 Our study suggests that the sub-polar gyre’s coastal currents focus increased freshwater from Greenland into the Labrador Sea, suppressing winter convection.  Perhaps in the future the Nordic Seas will become more important relative to the Labrador Sea in terms of producing North Atlantic Deep Water and the southward return flow of the AMOC.
 
 \newpage
-\section*{Appendix C: Copyright permission}
-\addcontentsline{toc}{section}{Appendix C: Copyright permission}
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=.9\textwidth]{/Users/qianyang/Dropbox/Disseratation/dissertation_latex/copyright/copyright.png}
-\end{figure}
+\includepdf[pages={1},scale=0.75,pagecommand={\section*{Appendix C: Copyright permission}\addcontentsline{toc}{section}{Appendix C: Copyright permission}}]{/Users/qianyang/Dropbox/Disseratation/dissertation_latex/copyright/chpt3.pdf}
+\includepdf[pages={2-5},scale=0.75]{/Users/qianyang/Dropbox/Disseratation/dissertation_latex/copyright/chpt3.pdf}
+\includepdf[pages={1-},scale=0.75]{/Users/qianyang/Dropbox/Disseratation/dissertation_latex/copyright/chpt4.pdf}
+\includepdf[pages={1-},scale=0.75]{/Users/qianyang/Dropbox/Disseratation/dissertation_latex/copyright/chpt5.pdf}
 
 \clearpage
 \section*{Appendix D: References}

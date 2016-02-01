@@ -24,7 +24,10 @@
 \contentsline {table}{\numberline {5.3}{\ignorespaces Highest pressure buildup and best-fit Young's modulus at three levels of porosity and permeability.\relax }}{106}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {table}{\numberline {A1}{\ignorespaces Comparison of seasonal uplift patterns parameters estimated from fitting GPS vertical time series with and without atmospheric loading correction to a cubic spline model.\relax }}{137}
-\contentsline {table}{\numberline {A2}{\ignorespaces List of meteorological stations\relax }}{138}
-\contentsline {table}{\numberline {A3}{\ignorespaces Five parameters of seasonal uplift patterns estimated from fitting GPS vertical data to a cubic spline model and parameters describing both atmospheric and oceanic condition at each GPS site.}}{139}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {table}{\numberline {A1}{\ignorespaces Comparison of seasonal uplift patterns parameters estimated from fitting GPS vertical time series with and without atmospheric loading correction to a cubic spline model.\relax }}{149}
+\contentsline {table}{\numberline {A2}{\ignorespaces List of meteorological stations\relax }}{150}
+\contentsline {table}{\numberline {A3}{\ignorespaces Five parameters of seasonal uplift patterns estimated from fitting GPS vertical data to a cubic spline model and parameters describing both atmospheric and oceanic condition at each GPS site.}}{151}
 \gdef \the@ipfilectr {}

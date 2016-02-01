@@ -7,6 +7,7 @@
 \usepackage{setspace}
 \usepackage{float} %needed to force figures in certain place
 \usepackage{url}
+\usepackage{pdfpages}
 
 % Multi bibliographies
 %\usepackage{chapterbib}
@@ -254,31 +255,24 @@
 \listoffigures % generate the list of figures
 \end{singlespace}
 
-% \renewcommand{\abstitleskip}{\vspace{-\baselineskip}}
-%needed to not center abstact vertically on center of page and bring it to top instead
-\patchcmd{\abstract}{\null\vfil}{\vspace*{37pt}}{}{}
+%\patchcmd{\abstract}{\null\vfil}{\vspace*{37pt}}{}{}
+\patchcmd{\abstract}{\null\vfil}{\vspace*{30pt}}{}{}
 \begin{abstract}
 \thispagestyle{plain}
-Space geodesy plays an important role for earth observation and it provides numerous applications in different scientific disciplines.  The dissertation presents three applications of space geodesy in the field of climate change.  In this dissertation, three space geodesy techniques are used: high-precision Global Positioning System (GPS), the Gravity Recovery and Climate Experiment (GRACE) and Interferometric Synthetic Aperture Radar (InSAR).  The following are brief introductions of these three works.  In the first work, I use the coastal uplift observed by GPS to study the annual variability of mass loss of the Greenland ice sheet.  Our data show both spatial and temporal variations of coastal ice mass loss and suggest that a combination of warm atmospheric and oceanic condition drove these variations.  In the second work, I use GRACE monthly product and the regional atmospheric climate model RACMO2.3 to estimate recent freshwater flux from Greenland and the Canadian Arctic Archipelago.  Our data show that Arctic freshwater flux started to increase rapidly since the mid-late 1990s, coincident with the decrease of Labrador Sea Water formation, a key component of the deep southward return flow of the Atlantic Meridional Overturning Circulation.   This work suggest that recent freshening of the high-latitude region weaken the formation of Larbador Sea Water and hence possibly weaken the Atlantic Meridional Overturning Circulation.  In the third work, I use InSAR to monitor ground deformation caused by CO$_{2}$ injection at an enhanced oil recovery site in west Texas.  Carbon capture, utilization and storage can greatly reduced CO$_{2}$ emitted from power plants, which is a promising way to mitigate anthropogenic warming. From 2007 to 2011, $\sim$24 million tons of CO$_{2}$  have been sequestered in the field, causing up to 10 MPa pressure buildup at reservoir depth and surface uplift up to 10 cm. Our work suggest that surface displacement observed by space geodesy technique is a good indicator of reservoir pressure change and continuous monitoring surface displacement at enhanced oil recovery sites helps to assess risks associated with CO$_{2}$ injection.    
-\setcounter{page}{6} %NEEED TO MANUALLY SET PAGE HERE
-%force abstract in the TOC
-% \clearpage
+Space geodesy plays an important role for earth observation and it provides numerous applications in different scientific disciplines.  The dissertation presents three applications of space geodesy in the field of climate change.  In this dissertation, three space geodesy techniques are used: high-precision Global Positioning System (GPS), the Gravity Recovery and Climate Experiment (GRACE) and Interferometric Synthetic Aperture Radar (InSAR).  The following are brief introductions of these three works.  In the first work, I use the coastal uplift observed by GPS to study the annual variability of mass loss of the Greenland ice sheet.  Our data show both spatial and temporal variations of coastal ice mass loss and suggest that a combination of warm atmospheric and oceanic condition drove these variations.  In the second work, I use GRACE monthly product and the regional atmospheric climate model RACMO2.3 to estimate recent freshwater flux from Greenland and the Canadian Arctic Archipelago.  Our data show that Arctic freshwater flux started to increase rapidly since the mid-late 1990s, coincident with the decrease of Labrador Sea Water formation, a key component of the deep southward return flow of the Atlantic Meridional Overturning Circulation.   This work suggest that recent freshening of the high-latitude region weaken the formation of Larbador Sea Water and hence possibly weaken the Atlantic Meridional Overturning Circulation.  In the third work, I use InSAR to monitor ground deformation caused by CO$_{2}$ injection at an enhanced oil recovery site in west Texas.  Carbon capture, utilization and storage can greatly reduced CO$_{2}$ emitted from power plants, which is a promising way to mitigate anthropogenic warming. From 2007 to 2011, $\sim$24 million tons of CO$_{2}$  have been sequestered in the field, causing up to 10 MPa pressure buildup at reservoir depth and surface uplift up to 10 cm. Our work suggest that surface displacement observed by space geodesy technique is a good indicator of reservoir pressure change and continuous monitoring surface displacement at enhanced oil recovery sites helps to assess risks associated with CO$_{2}$ injection.
+\setcounter{page}{8} %NEEED TO MANUALLY SET PAGE HERE
 \addcontentsline{toc}{chapter}{Abstract}
 \end{abstract}
 
-
 \pagenumbering{arabic}
-
-
 %use the intro paragraph here, must define chapter and label in the other tex file
 %need to remove all of the journal-specific formatting stuff from the tex files in the separate chapter files
-%\input{chpt3}
-%\input{chpt5}
 \include{intro}
 \include{chpt2}
 \include{chpt3}
 \include{chpt4}
 \include{chpt5}
+\include{chpt6}
 \include{appen}
 
 \end{document}

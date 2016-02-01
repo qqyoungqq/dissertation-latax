@@ -51,23 +51,26 @@
 \contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison between simulated LOS displacements and InSAR observation for the entire study area.}}{118}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {figure}{\numberline {A1}{\ignorespaces GPS time series from site SENU before (pink) and after (black) atmospheric pressure loading correction.}}{146}
-\contentsline {figure}{\numberline {A2}{\ignorespaces Example GPS time series for site SENU, de-trended and fit with annual model shown in Figure 3.2\hbox {}.}}{147}
-\contentsline {figure}{\numberline {A3}{\ignorespaces Snow depth recorded at a meteorological station (WMO-ID 04272, Table A2\hbox {}) in southern Greenland coastal area.}}{148}
-\contentsline {figure}{\numberline {A4}{\ignorespaces Histogram showing statistical result for five seasonal uplift variables at GPS station SENU.}}{149}
-\contentsline {figure}{\numberline {A5}{\ignorespaces Time series of GPS vertical component position.}}{151}
-\contentsline {figure}{\numberline {A6}{\ignorespaces Time series of GPS vertical component position after removing long-term trend by low pass filter.}}{153}
-\contentsline {figure}{\numberline {A7}{\ignorespaces Time series of surface air temperature at meteorological stations near 4 GPS site.}}{154}
-\contentsline {figure}{\numberline {A8}{\ignorespaces Simplified sketch illustrating 3-D structure of the Labrador Sea and major currents and water masses.}}{155}
-\contentsline {figure}{\numberline {A9}{\ignorespaces Comparison of Irminger Water heat flux and North Atlantic SST anomaly over the period 1949 \IeC {\textendash } 2013}}{156}
-\contentsline {figure}{\numberline {A10}{\ignorespaces Freshwater flux from Greenland estimated from mass balance and accumulation. (a) Greenland mass balance.}}{157}
-\contentsline {figure}{\numberline {A11}{\ignorespaces Comparison between estimates of freshwater flux from Greenland.}}{158}
-\contentsline {figure}{\numberline {A12}{\ignorespaces Three estimates of the annual minimum Arctic sea ice volume time series.}}{159}
-\contentsline {figure}{\numberline {A13}{\ignorespaces Long term melting rate of Arctic sea ice from three data sets.}}{160}
-\contentsline {figure}{\numberline {A14}{\ignorespaces Similar to Figure 4.5\hbox {} except salt flux of Irminger Water is expressed in terms of freshwater flux.}}{161}
-\contentsline {figure}{\numberline {A15}{\ignorespaces Similar to Figure 4.5\hbox {} except grey solid line represents the mass of Labrador Sea Water.}}{162}
-\contentsline {figure}{\numberline {A16}{\ignorespaces Seasonal variation of freshwater flux from Greenland and the Canadian Arctic Archipelago.}}{164}
-\contentsline {figure}{\numberline {A17}{\ignorespaces Predefined regions used in this paper to localize the GRACE mass change signal.}}{165}
-\contentsline {figure}{\numberline {A18}{\ignorespaces Freshwater flux from Greenland and its two components.}}{165}
-\contentsline {figure}{\numberline {A19}{\ignorespaces Freshwater flux from the Canadian Arctic Archipelago and its two components.}}{166}
+\addvspace {10\p@ }
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {figure}{\numberline {A1}{\ignorespaces GPS time series from site SENU before (pink) and after (black) atmospheric pressure loading correction.}}{158}
+\contentsline {figure}{\numberline {A2}{\ignorespaces Example GPS time series for site SENU, de-trended and fit with annual model shown in Figure 3.2\hbox {}.}}{159}
+\contentsline {figure}{\numberline {A3}{\ignorespaces Snow depth recorded at a meteorological station (WMO-ID 04272, Table A2\hbox {}) in southern Greenland coastal area.}}{160}
+\contentsline {figure}{\numberline {A4}{\ignorespaces Histogram showing statistical result for five seasonal uplift variables at GPS station SENU.}}{161}
+\contentsline {figure}{\numberline {A5}{\ignorespaces Time series of GPS vertical component position.}}{163}
+\contentsline {figure}{\numberline {A6}{\ignorespaces Time series of GPS vertical component position after removing long-term trend by low pass filter.}}{165}
+\contentsline {figure}{\numberline {A7}{\ignorespaces Time series of surface air temperature at meteorological stations near 4 GPS site.}}{166}
+\contentsline {figure}{\numberline {A8}{\ignorespaces Simplified sketch illustrating 3-D structure of the Labrador Sea and major currents and water masses.}}{167}
+\contentsline {figure}{\numberline {A9}{\ignorespaces Comparison of Irminger Water heat flux and North Atlantic SST anomaly over the period 1949 \IeC {\textendash } 2013}}{168}
+\contentsline {figure}{\numberline {A10}{\ignorespaces Freshwater flux from Greenland estimated from mass balance and accumulation. (a) Greenland mass balance.}}{169}
+\contentsline {figure}{\numberline {A11}{\ignorespaces Comparison between estimates of freshwater flux from Greenland.}}{170}
+\contentsline {figure}{\numberline {A12}{\ignorespaces Three estimates of the annual minimum Arctic sea ice volume time series.}}{171}
+\contentsline {figure}{\numberline {A13}{\ignorespaces Long term melting rate of Arctic sea ice from three data sets.}}{172}
+\contentsline {figure}{\numberline {A14}{\ignorespaces Similar to Figure 4.5\hbox {} except salt flux of Irminger Water is expressed in terms of freshwater flux.}}{173}
+\contentsline {figure}{\numberline {A15}{\ignorespaces Similar to Figure 4.5\hbox {} except grey solid line represents the mass of Labrador Sea Water.}}{174}
+\contentsline {figure}{\numberline {A16}{\ignorespaces Seasonal variation of freshwater flux from Greenland and the Canadian Arctic Archipelago.}}{176}
+\contentsline {figure}{\numberline {A17}{\ignorespaces Predefined regions used in this paper to localize the GRACE mass change signal.}}{177}
+\contentsline {figure}{\numberline {A18}{\ignorespaces Freshwater flux from Greenland and its two components.}}{177}
+\contentsline {figure}{\numberline {A19}{\ignorespaces Freshwater flux from the Canadian Arctic Archipelago and its two components.}}{178}
 \gdef \the@ipfilectr {}

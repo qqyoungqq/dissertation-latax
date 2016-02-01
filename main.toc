@@ -4,7 +4,7 @@
 \gdef \the@ipfilectr {}
 \contentsline {chapter}{List of Tables}{iii}
 \contentsline {chapter}{List of Figures}{iv}
-\contentsline {chapter}{Abstract}{vi}
+\contentsline {chapter}{Abstract}{viii}
 \gdef \the@ipfilectr {@-3}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {section}{\numberline {1.1}Overview}{1}
@@ -80,9 +80,15 @@
 \contentsline {section}{\numberline {5.10}References}{100}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\contentsline {chapter}{Appendices}{119}
-\contentsline {section}{Appendix A: Supplementary Information for Chapter 3}{120}
-\contentsline {section}{Appendix B: Supplementary Information for Chapter 4}{123}
-\contentsline {section}{Appendix C: Copyright permission}{131}
-\contentsline {section}{Appendix D: References}{132}
+\contentsline {chapter}{\numberline {6}Conclusions and Future Works}{119}
+\contentsline {section}{\numberline {6.1}Conclusions}{119}
+\contentsline {section}{\numberline {6.2}Future Works}{119}
+\contentsline {section}{\numberline {6.3}References}{119}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-9}
+\contentsline {chapter}{Appendices}{120}
+\contentsline {section}{Appendix A: Supplementary information for Chapter 3}{121}
+\contentsline {section}{Appendix B: Supplementary information for Chapter 4}{124}
+\contentsline {section}{Appendix C: Copyright permission}{132}
+\contentsline {section}{Appendix D: References}{144}
 \gdef \the@ipfilectr {}

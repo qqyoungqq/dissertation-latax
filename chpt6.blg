@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: chpt6.aux
+The style file: apalike.bst
+Database file #1: chpt6_ref.bib
+Warning--empty journal in tedesco2015chpt6
+You've used 6 entries,
+            1935 wiz_defined-function locations,
+            511 strings with 5332 characters,
+and the built_in function-call counts, 3300 in all, are:
+= -- 288
+> -- 258
+< -- 0
++ -- 96
+- -- 96
+* -- 334
+:= -- 607
+add.period$ -- 17
+call.type$ -- 6
+change.case$ -- 78
+chr.to.int$ -- 6
+cite$ -- 7
+duplicate$ -- 82
+empty$ -- 158
+format.name$ -- 102
+if$ -- 597
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 32
+num.names$ -- 18
+pop$ -- 70
+preamble$ -- 1
+purify$ -- 78
+quote$ -- 0
+skip$ -- 62
+stack$ -- 0
+substring$ -- 162
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 1
+while$ -- 19
+width$ -- 0
+write$ -- 77
+(There was 1 warning)

@@ -1,16 +1,15 @@
 This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: ./dedication.aux
 A level-1 auxiliary file: ./acknowledgment.aux
 A level-1 auxiliary file: intro.aux
 The style file: apalike.bst
 A level-1 auxiliary file: chpt2.aux
-Illegal, another \bibstyle command---line 18 of file chpt2.aux
+Illegal, another \bibstyle command---line 70 of file chpt2.aux
  : \bibstyle
  :          {apalike}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 19 of file chpt2.aux
+Illegal, another \bibdata command---line 71 of file chpt2.aux
  : \bibdata
  :         {chpt2_ref}
 I'm skipping whatever remains of this command
@@ -41,6 +40,15 @@ Illegal, another \bibdata command---line 64 of file chpt5.aux
  : \bibdata
  :         {chpt5_ref}
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: chpt6.aux
+Illegal, another \bibstyle command---line 11 of file chpt6.aux
+ : \bibstyle
+ :          {apalike}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 12 of file chpt6.aux
+ : \bibdata
+ :         {chpt6_ref}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: appen.aux
 Illegal, another \bibdata command---line 55 of file appen.aux
  : \bibdata
@@ -50,21 +58,59 @@ Illegal, another \bibstyle command---line 103 of file appen.aux
  : \bibstyle
  :          {apalike}
 I'm skipping whatever remains of this command
-Reallocated field_info (elt_size=4) to 10456 items from 5000.
+Reallocated field_info (elt_size=4) to 11424 items from 5000.
 Database file #1: intro_ref.bib
+Warning--I didn't find a database entry for "seeber2003chpt2"
 Warning--I didn't find a database entry for "dixon1991chpt2"
-Warning--I didn't find a database entry for "mao1999noise"
-Warning--I didn't find a database entry for "hofmann2001gps"
-Warning--I didn't find a database entry for "remondi1985global"
-Warning--I didn't find a database entry for "lichten1987strategies"
+Warning--I didn't find a database entry for "mao1999chpt2"
+Warning--I didn't find a database entry for "hofmann2001chpt2"
+Warning--I didn't find a database entry for "remondi1985chpt2"
+Warning--I didn't find a database entry for "lichten1987chpt2"
 Warning--I didn't find a database entry for "blewitt1989chpt2"
 Warning--I didn't find a database entry for "blewitt2008chpt2"
-Warning--I didn't find a database entry for "bertiger2010chpt2"
+Warning--I didn't find a database entry for "hernandez2007chpt2"
+Warning--I didn't find a database entry for "petrie2010chpt2"
 Warning--I didn't find a database entry for "niell1996chpt2"
-Warning--I didn't find a database entry for "bohm2006chpt2"
 Warning--I didn't find a database entry for "boehm2006chpt2"
+Warning--I didn't find a database entry for "boehm2007chpt2"
+Warning--I didn't find a database entry for "larson2007chpt2"
+Warning--I didn't find a database entry for "axelrad1996chpt2"
+Warning--I didn't find a database entry for "genrich1992chpt2"
+Warning--I didn't find a database entry for "choi2004chpt2"
 Warning--I didn't find a database entry for "sella2002chpt2"
-Warning--I didn't find a database entry for "schmid2007intro"
+Warning--I didn't find a database entry for "steigenberger2006chpt2"
+Warning--I didn't find a database entry for "schmid2007chpt2"
+Warning--I didn't find a database entry for "zumberge1997chpt2"
+Warning--I didn't find a database entry for "lyard2006chpt2"
+Warning--I didn't find a database entry for "petrov2004chpt2"
+Warning--I didn't find a database entry for "altamimi2007chpt2"
+Warning--I didn't find a database entry for "curlander1991chpt2"
+Warning--I didn't find a database entry for "massonnet1998chpt2"
+Warning--I didn't find a database entry for "rosen2000chpt2"
+Warning--I didn't find a database entry for "hanssen2001chpt2"
+Warning--I didn't find a database entry for "zebker1998chpt2"
+Warning--I didn't find a database entry for "goldstein1995chpt2"
+Warning--I didn't find a database entry for "zebker1997chpt2"
+Warning--I didn't find a database entry for "berardino2002chpt2"
+Warning--I didn't find a database entry for "williams1998chpt2"
+Warning--I didn't find a database entry for "foster2006chpt2"
+Warning--I didn't find a database entry for "jolivet2014chpt2"
+Warning--I didn't find a database entry for "yoon2009chpt2"
+Warning--I didn't find a database entry for "eineder2011chpt2"
+Warning--I didn't find a database entry for "rudenko2012chpt2"
+Warning--I didn't find a database entry for "tapley2004chpt2"
+Warning--I didn't find a database entry for "wahr2004chpt2"
+Warning--I didn't find a database entry for "wouters2014chpt2"
+Warning--I didn't find a database entry for "chambers2012chpt2"
+Warning--I didn't find a database entry for "wahr1998chpt2"
+Warning--I didn't find a database entry for "chen2006chpt2"
+Warning--I didn't find a database entry for "kusche2009chpt2"
+Warning--I didn't find a database entry for "swenson2006chpt2"
+Warning--I didn't find a database entry for "chen2006antarctic"
+Warning--I didn't find a database entry for "velicogna2006chpt2"
+Warning--I didn't find a database entry for "rowlands2005chpt2"
+Warning--I didn't find a database entry for "schrama2011chpt2"
+Warning--I didn't find a database entry for "thomas2011chpt2"
 Warning--I didn't find a database entry for "velicogna2006acceleration"
 Warning--I didn't find a database entry for "velicogna2009increasing"
 Warning--I didn't find a database entry for "chen2006satellite"
@@ -221,6 +267,12 @@ Warning--I didn't find a database entry for "bevis2005seasonal"
 Warning--I didn't find a database entry for "rohmer2012applicability"
 Warning--I didn't find a database entry for "gan2013gas"
 Warning--I didn't find a database entry for "reid1991cogdell"
+Warning--I didn't find a database entry for "hanna2014chpt6"
+Warning--I didn't find a database entry for "tedesco2015chpt6"
+Warning--I didn't find a database entry for "nick2009chpt6"
+Warning--I didn't find a database entry for "nield2014chpt6"
+Warning--I didn't find a database entry for "howat2005chpt6"
+Warning--I didn't find a database entry for "haine2015chpt6"
 Warning--I didn't find a database entry for "magie1969source"
 Warning--I didn't find a database entry for "darwin1882xlvi"
 Warning--I didn't find a database entry for "vandam1994atmospheric"
@@ -268,7 +320,7 @@ Warning--I didn't find a database entry for "good2013en4"
 Warning--I didn't find a database entry for "lenaerts2013irreversible"
 You've used 34 entries,
             1935 wiz_defined-function locations,
-            915 strings with 14849 characters,
+            959 strings with 15526 characters,
 and the built_in function-call counts, 16514 in all, are:
 = -- 1549
 > -- 994
@@ -307,4 +359,4 @@ warning$ -- 0
 while$ -- 121
 width$ -- 0
 write$ -- 444
-(There were 10 error messages)
+(There were 12 error messages)

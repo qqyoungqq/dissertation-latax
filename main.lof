@@ -2,75 +2,80 @@
 \gdef \the@ipfilectr {@-1}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
+\addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Basic relations for satellite observations.}}{30}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Carrier phase ranging.}}{31}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces GPS satellite constellation.}}{32}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Composition of the signals from GPS satellites.}}{33}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Acquisition geometry of repeat-track interferometry.}}{34}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Basic mission concept of GRACE.}}{35}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces GRACE-derived maps of monthly anomaly of water storage.}}{36}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Map of Greenland showing location of GPS sites, meteorological stations, and other data used in this study.}}{65}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Hypothetical 2 year time series showing four parameters (start time, end time, duration, and uplift) defined for a melt season.}}{66}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Annual variations of the five parameters defining seasonal uplift calculated for the four sites with longest observation record (red circles in Figure 3.1\hbox {}).}}{67}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Uplift versus duration for the four sites with longest observation record.}}{68}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Seasonal uplift patterns for 2008\IeC {\textendash }2010.}}{69}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces (a) AMSAT (Annual mean surface air temperature). (b) CAPDD (Cumulative annual positive degree days) for the four GPS stations with longest observation record.}}{70}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Difference of Surface Mass Balance (SMB model from RACMO2) in summertime (June to August) between 2010 and 20XX (XX= 00\IeC {\textendash }09) for the Greenland region.}}{71}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Difference of AMSSWT (Annual mean, sub-surface water temperature, depth range 5 m \IeC {\textendash } 447 m) between 2010 and 20XX (XX = 00\IeC {\textendash }09) for the Greenland region.}}{72}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces AMSSWT (Figure 3.8\hbox {}) for \IeC {\textquotedblleft }voxels\IeC {\textquotedblright } (model volume elements) nearest a given GPS station.}}{73}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Uplift duration versus CAPDD (Figure 3.6\hbox {}).\relax }}{74}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Spatial variation of seasonal uplift for four stations with longest time span related to (a) AMSAT (Figure 3.6\hbox {}); (b) CAPDD (Figure 3.6\hbox {}); and (c) AMSSWT (Figure 3.8\hbox {}).}}{75}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Comparison between seasonal uplift patterns and atmospheric parameters (AMSAT and CAPDD, Figure 3.6\hbox {}) as well as the ocean temperature parameter (AMSSWT, Figure 3.8\hbox {}) for 2008\IeC {\textendash }2010.}}{77}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Temporal variation of seasonal uplift for all stations for 2008\IeC {\textendash }2010 as a function of AMSAT (Figure 3.6\hbox {}), CAPDD (Figure 3.6\hbox {}), and AMSSWT(Figure 3.8\hbox {}).\relax }}{78}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Spatial variation of uplift accelerations as a function of (a) AMSAT (Figure 3.6\hbox {}), (b) CAPDD (Figure 3.6\hbox {}), and (c) AMSSWT (Figure 3.8\hbox {}) of 2010.\relax }}{79}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Site map of relative difference between uplift in 2010 and uplift in 2008 and 2009.}}{80}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Relation between ocean currents, coastal uplift, and ice mass balance of coastal Greenland.}}{81}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Map of Greenland showing location of GPS sites, meteorological stations, and other data used in this study.}}{42}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Hypothetical 2 year time series showing four parameters (start time, end time, duration, and uplift) defined for a melt season.}}{43}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Annual variations of the five parameters defining seasonal uplift calculated for the four sites with longest observation record (red circles in Figure 3.1\hbox {}).}}{44}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Uplift versus duration for the four sites with longest observation record.}}{45}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Seasonal uplift patterns for 2008\IeC {\textendash }2010.}}{46}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces (a) AMSAT (Annual mean surface air temperature). (b) CAPDD (Cumulative annual positive degree days) for the four GPS stations with longest observation record.}}{47}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Difference of Surface Mass Balance (SMB model from RACMO2) in summertime (June to August) between 2010 and 20XX (XX= 00\IeC {\textendash }09) for the Greenland region.}}{48}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Difference of AMSSWT (Annual mean, sub-surface water temperature, depth range 5 m \IeC {\textendash } 447 m) between 2010 and 20XX (XX = 00\IeC {\textendash }09) for the Greenland region.}}{49}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces AMSSWT (Figure 3.8\hbox {}) for \IeC {\textquotedblleft }voxels\IeC {\textquotedblright } (model volume elements) nearest a given GPS station.}}{50}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Uplift duration versus CAPDD (Figure 3.6\hbox {}).\relax }}{51}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Spatial variation of seasonal uplift for four stations with longest time span related to (a) AMSAT (Figure 3.6\hbox {}); (b) CAPDD (Figure 3.6\hbox {}); and (c) AMSSWT (Figure 3.8\hbox {}).}}{52}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Comparison between seasonal uplift patterns and atmospheric parameters (AMSAT and CAPDD, Figure 3.6\hbox {}) as well as the ocean temperature parameter (AMSSWT, Figure 3.8\hbox {}) for 2008\IeC {\textendash }2010.}}{54}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Temporal variation of seasonal uplift for all stations for 2008\IeC {\textendash }2010 as a function of AMSAT (Figure 3.6\hbox {}), CAPDD (Figure 3.6\hbox {}), and AMSSWT(Figure 3.8\hbox {}).\relax }}{55}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Spatial variation of uplift accelerations as a function of (a) AMSAT (Figure 3.6\hbox {}), (b) CAPDD (Figure 3.6\hbox {}), and (c) AMSSWT (Figure 3.8\hbox {}) of 2010.\relax }}{56}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Site map of relative difference between uplift in 2010 and uplift in 2008 and 2009.}}{57}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Relation between ocean currents, coastal uplift, and ice mass balance of coastal Greenland.}}{58}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Study region showing oceanographic sections and major currents around Greenland.}}{104}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Mass change of Greenland estimated from GRACE for the period 2002 - 2014.}}{105}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Heat and salt fluxes of Irminger Water for the period 1949 \IeC {\textendash } 2013.}}{106}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Freshwater flux from Greenland and CAA and Arctic sea ice for the period 1979 \IeC {\textendash } 2013.}}{107}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Thickness of LSW and total freshwater flux and salt flux of Irminger Water.}}{108}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Study region showing oceanographic sections and major currents around Greenland.}}{81}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Mass change of Greenland estimated from GRACE for the period 2002 - 2014.}}{82}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Heat and salt fluxes of Irminger Water for the period 1949 \IeC {\textendash } 2013.}}{83}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Freshwater flux from Greenland and CAA and Arctic sea ice for the period 1979 \IeC {\textendash } 2013.}}{84}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Thickness of LSW and total freshwater flux and salt flux of Irminger Water.}}{85}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces (a) Total LOS (line of sight) displacement from from January. 08, 2007 to March. 06, 2011. (b) A SAR intensity image of the study area.}}{130}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Injection and production history of the study site.}}{131}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces DEM of our study area.}}{132}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) Comparison between Line of Sight (LOS) displacement at Snyder (red star marked in Figure 5.1\hbox {}) and cumulative volumes of stored (injection minus production) CO$_{2}$ and water in the field from January 2007 to March 2011. (b) The total volumes of injected/produced/stored CO$_{2}$, water, oil and HC gas in the field from January 2007 \IeC {\textendash } March 2011.}}{133}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Map of study area, showing total LOS displacement from January 08, 2007 to March. 06, 2011, (a) wells injecting CO$_{2}$ (green circle) and water (blue circle), and (b) well producing CO$_{2}$, water, Oil and HC gas (red triangle).\relax }}{134}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Location of virtual wells for each type fluid and the average monthly injection/production rate for each virtual well.}}{135}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Calculated pressure change due to fluid injection and production at three levels of porosity and permeability.}}{136}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Calculated pressure change due to all injection and production activities at three levels of porosity and permeability.}}{137}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Goodness of fit versus Young\IeC {\textquoteright }s modulus at three levels of pressure change conditions.}}{138}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Simulated LOS displacement at three levels of pressure change conditions versus InSAR observation along the profile shown in Figure 5.1\hbox {}.\relax }}{139}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison between simulated LOS displacements and InSAR observation for the entire study area.}}{140}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces (a) Total LOS (line of sight) displacement from from January. 08, 2007 to March. 06, 2011. (b) A SAR intensity image of the study area.}}{108}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Injection and production history of the study site.}}{109}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces DEM of our study area.}}{110}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces (a) Comparison between Line of Sight (LOS) displacement at Snyder (red star marked in Figure 5.1\hbox {}) and cumulative volumes of stored (injection minus production) CO$_{2}$ and water in the field from January 2007 to March 2011. (b) The total volumes of injected/produced/stored CO$_{2}$, water, oil and HC gas in the field from January 2007 \IeC {\textendash } March 2011.}}{111}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Map of study area, showing total LOS displacement from January 08, 2007 to March. 06, 2011, (a) wells injecting CO$_{2}$ (green circle) and water (blue circle), and (b) well producing CO$_{2}$, water, Oil and HC gas (red triangle).\relax }}{112}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Location of virtual wells for each type fluid and the average monthly injection/production rate for each virtual well.}}{113}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Calculated pressure change due to fluid injection and production at three levels of porosity and permeability.}}{114}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Calculated pressure change due to all injection and production activities at three levels of porosity and permeability.}}{115}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Goodness of fit versus Young\IeC {\textquoteright }s modulus at three levels of pressure change conditions.}}{116}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Simulated LOS displacement at three levels of pressure change conditions versus InSAR observation along the profile shown in Figure 5.1\hbox {}.\relax }}{117}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Comparison between simulated LOS displacements and InSAR observation for the entire study area.}}{118}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-9}
-\contentsline {figure}{\numberline {A1}{\ignorespaces GPS time series from site SENU before (pink) and after (black) atmospheric pressure loading correction.}}{158}
-\contentsline {figure}{\numberline {A2}{\ignorespaces Example GPS time series for site SENU, de-trended and fit with annual model shown in Figure 3.2\hbox {}.}}{159}
-\contentsline {figure}{\numberline {A3}{\ignorespaces Snow depth recorded at a meteorological station (WMO-ID 04272, Table A2\hbox {}) in southern Greenland coastal area.}}{160}
-\contentsline {figure}{\numberline {A4}{\ignorespaces Histogram showing statistical result for five seasonal uplift variables at GPS station SENU.}}{161}
-\contentsline {figure}{\numberline {A5}{\ignorespaces Time series of GPS vertical component position.}}{163}
-\contentsline {figure}{\numberline {A6}{\ignorespaces Time series of GPS vertical component position after removing long-term trend by low pass filter.}}{165}
-\contentsline {figure}{\numberline {A7}{\ignorespaces Time series of surface air temperature at meteorological stations near 4 GPS site.}}{166}
-\contentsline {figure}{\numberline {A8}{\ignorespaces Simplified sketch illustrating 3-D structure of the Labrador Sea and major currents and water masses.}}{167}
-\contentsline {figure}{\numberline {A9}{\ignorespaces Comparison of Irminger Water heat flux and North Atlantic SST anomaly over the period 1949 \IeC {\textendash } 2013}}{168}
-\contentsline {figure}{\numberline {A10}{\ignorespaces Freshwater flux from Greenland estimated from mass balance and accumulation. (a) Greenland mass balance.}}{169}
-\contentsline {figure}{\numberline {A11}{\ignorespaces Comparison between estimates of freshwater flux from Greenland.}}{170}
-\contentsline {figure}{\numberline {A12}{\ignorespaces Three estimates of the annual minimum Arctic sea ice volume time series.}}{171}
-\contentsline {figure}{\numberline {A13}{\ignorespaces Long term melting rate of Arctic sea ice from three data sets.}}{172}
-\contentsline {figure}{\numberline {A14}{\ignorespaces Similar to Figure 4.5\hbox {} except salt flux of Irminger Water is expressed in terms of freshwater flux.}}{173}
-\contentsline {figure}{\numberline {A15}{\ignorespaces Similar to Figure 4.5\hbox {} except grey solid line represents the mass of Labrador Sea Water.}}{174}
-\contentsline {figure}{\numberline {A16}{\ignorespaces Seasonal variation of freshwater flux from Greenland and the Canadian Arctic Archipelago.}}{176}
-\contentsline {figure}{\numberline {A17}{\ignorespaces Predefined regions used in this paper to localize the GRACE mass change signal.}}{177}
-\contentsline {figure}{\numberline {A18}{\ignorespaces Freshwater flux from Greenland and its two components.}}{177}
-\contentsline {figure}{\numberline {A19}{\ignorespaces Freshwater flux from the Canadian Arctic Archipelago and its two components.}}{178}
+\contentsline {figure}{\numberline {A1}{\ignorespaces GPS time series from site SENU before (pink) and after (black) atmospheric pressure loading correction.}}{178}
+\contentsline {figure}{\numberline {A2}{\ignorespaces Example GPS time series for site SENU, de-trended and fit with annual model shown in Figure 3.2\hbox {}.}}{179}
+\contentsline {figure}{\numberline {A3}{\ignorespaces Snow depth recorded at a meteorological station (WMO-ID 04272, Table A2\hbox {}) in southern Greenland coastal area.}}{180}
+\contentsline {figure}{\numberline {A4}{\ignorespaces Histogram showing statistical result for five seasonal uplift variables at GPS station SENU.}}{181}
+\contentsline {figure}{\numberline {A5}{\ignorespaces Time series of GPS vertical component position.}}{183}
+\contentsline {figure}{\numberline {A6}{\ignorespaces Time series of GPS vertical component position after removing long-term trend by low pass filter.}}{185}
+\contentsline {figure}{\numberline {A7}{\ignorespaces Time series of surface air temperature at meteorological stations near 4 GPS site.}}{186}
+\contentsline {figure}{\numberline {A8}{\ignorespaces Simplified sketch illustrating 3-D structure of the Labrador Sea and major currents and water masses.}}{187}
+\contentsline {figure}{\numberline {A9}{\ignorespaces Comparison of Irminger Water heat flux and North Atlantic SST anomaly over the period 1949 \IeC {\textendash } 2013}}{188}
+\contentsline {figure}{\numberline {A10}{\ignorespaces Freshwater flux from Greenland estimated from mass balance and accumulation. (a) Greenland mass balance.}}{189}
+\contentsline {figure}{\numberline {A11}{\ignorespaces Comparison between estimates of freshwater flux from Greenland.}}{190}
+\contentsline {figure}{\numberline {A12}{\ignorespaces Three estimates of the annual minimum Arctic sea ice volume time series.}}{191}
+\contentsline {figure}{\numberline {A13}{\ignorespaces Long term melting rate of Arctic sea ice from three data sets.}}{192}
+\contentsline {figure}{\numberline {A14}{\ignorespaces Similar to Figure 4.5\hbox {} except salt flux of Irminger Water is expressed in terms of freshwater flux.}}{193}
+\contentsline {figure}{\numberline {A15}{\ignorespaces Similar to Figure 4.5\hbox {} except grey solid line represents the mass of Labrador Sea Water.}}{194}
+\contentsline {figure}{\numberline {A16}{\ignorespaces Seasonal variation of freshwater flux from Greenland and the Canadian Arctic Archipelago.}}{195}
+\contentsline {figure}{\numberline {A17}{\ignorespaces Predefined regions used in this paper to localize the GRACE mass change signal.}}{196}
+\contentsline {figure}{\numberline {A18}{\ignorespaces Freshwater flux from Greenland and its two components.}}{197}
+\contentsline {figure}{\numberline {A19}{\ignorespaces Freshwater flux from the Canadian Arctic Archipelago and its two components.}}{198}
 \gdef \the@ipfilectr {}

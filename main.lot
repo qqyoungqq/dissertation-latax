@@ -1,33 +1,32 @@
 \gdef \the@ipfilectr {@-1}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
+\addvspace {10\p@ }
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces GPS satellite signals (bps = bits per second) \cite []{seeber2003chpt2}\relax }}{29}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Parameters describing seasonal uplift and atmospheric/oceanic condition at KELY, KULU, QAQ1 and THU3.\relax }}{62}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Recent uplift history and glacier proximity for all GPS sites considered in this study.\relax }}{63}
+\contentsline {table}{\numberline {3.3}{\ignorespaces GPS uplift data fit to a model of constant acceleration.\relax }}{64}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-5}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Parameters describing seasonal uplift and atmospheric/oceanic condition at KELY, KULU, QAQ1 and THU3.\relax }}{39}
-\contentsline {table}{\numberline {3.2}{\ignorespaces Recent uplift history and glacier proximity for all GPS sites considered in this study.\relax }}{40}
-\contentsline {table}{\numberline {3.3}{\ignorespaces GPS uplift data fit to a model of constant acceleration.\relax }}{41}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-6}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Reservoir homogeneous properties used for pressure change calculation.\relax }}{126}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Fluid properties at depth (16MPa,41.5 $^{\circ }$C).\relax }}{127}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Highest pressure buildup and best-fit Young's modulus at three levels of porosity and permeability.\relax }}{128}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-7}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Reservoir homogeneous properties used for pressure change calculation.\relax }}{104}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Fluid properties at depth (16MPa,41.5 $^{\circ }$C).\relax }}{105}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Highest pressure buildup and best-fit Young's modulus at three levels of porosity and permeability.\relax }}{106}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-8}
-\addvspace {10\p@ }
-\gdef \the@ipfilectr {}
-\gdef \the@ipfilectr {@-9}
-\contentsline {table}{\numberline {A1}{\ignorespaces Comparison of seasonal uplift patterns parameters estimated from fitting GPS vertical time series with and without atmospheric loading correction to a cubic spline model.\relax }}{149}
-\contentsline {table}{\numberline {A2}{\ignorespaces List of meteorological stations\relax }}{150}
-\contentsline {table}{\numberline {A3}{\ignorespaces Five parameters of seasonal uplift patterns estimated from fitting GPS vertical data to a cubic spline model and parameters describing both atmospheric and oceanic condition at each GPS site.}}{151}
+\contentsline {table}{\numberline {A1}{\ignorespaces Comparison of seasonal uplift patterns parameters estimated from fitting GPS vertical time series with and without atmospheric loading correction to a cubic spline model.\relax }}{169}
+\contentsline {table}{\numberline {A2}{\ignorespaces List of meteorological stations\relax }}{170}
+\contentsline {table}{\numberline {A3}{\ignorespaces Five parameters of seasonal uplift patterns estimated from fitting GPS vertical data to a cubic spline model and parameters describing both atmospheric and oceanic condition at each GPS site.}}{171}
 \gdef \the@ipfilectr {}

@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: chpt2.aux
 The style file: apalike.bst
 Database file #1: chpt2_ref.bib
-You've used 13 entries,
+You've used 51 entries,
             1935 wiz_defined-function locations,
-            558 strings with 5928 characters,
-and the built_in function-call counts, 5218 in all, are:
-= -- 514
-> -- 209
-< -- 6
-+ -- 72
-- -- 70
-* -- 475
-:= -- 920
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 100
-chr.to.int$ -- 13
-cite$ -- 13
-duplicate$ -- 178
-empty$ -- 365
-format.name$ -- 85
-if$ -- 993
-int.to.chr$ -- 1
+            765 strings with 12767 characters,
+and the built_in function-call counts, 21284 in all, are:
+= -- 2043
+> -- 1045
+< -- 19
++ -- 365
+- -- 360
+* -- 1990
+:= -- 3782
+add.period$ -- 153
+call.type$ -- 51
+change.case$ -- 431
+chr.to.int$ -- 50
+cite$ -- 51
+duplicate$ -- 696
+empty$ -- 1380
+format.name$ -- 431
+if$ -- 4021
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 68
-num.names$ -- 39
-pop$ -- 68
+missing$ -- 54
+newline$ -- 258
+num.names$ -- 153
+pop$ -- 328
 preamble$ -- 1
-purify$ -- 100
+purify$ -- 434
 quote$ -- 0
-skip$ -- 141
+skip$ -- 545
 stack$ -- 0
-substring$ -- 416
-swap$ -- 13
-text.length$ -- 0
+substring$ -- 1464
+swap$ -- 52
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
+type$ -- 300
 warning$ -- 0
-while$ -- 44
+while$ -- 161
 width$ -- 0
-write$ -- 171
+write$ -- 663
